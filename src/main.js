@@ -14,6 +14,8 @@ const newCreatorsContainer = document.querySelector('.newCreatorsContainer');
 const newTitle1Container = document.querySelector('.newTitle1Container');
 const newContadorContainer = document.querySelector('.newContadorContainer');
 const newCardsContainer = document.querySelector('.newCardsContainer');
+const newTitle2Container = document.querySelector('.newTitle2Container');
+const newCardsContainer2 = document.querySelector('.newCardsContainer2');
 
 const filterAlphabet = document.getElementById('filterAlphabet');
 const filterDirector = document.getElementById('filterDirector');
@@ -101,9 +103,31 @@ fetch('./data/ghibli/ghibli.json')
               <p class="infoPersonajes"><span class="letterPink">Eye Color:</span> ${element.eye_color}</p>
               <p class="infoPersonajes"><span class="letterPink">Specie:</span> ${element.specie}</p>`
 
-            newCardsContainer.appendChild(card);
-  
+            newCardsContainer.appendChild(card)
           });
+
+          //Creación de cards de locaciones
+          const newTitle2Locations = `<h2 class="titlePeliculas">Locations</h2>`
+          newTitle2Container.innerHTML = newTitle2Locations
+  
+          if (e.locations.length === 0) {
+            newCardsContainer2.innerHTML = `<p class="noInformation">There is no information :(</p>`
+          } else {
+            e.locations.forEach( place => {
+              const card2 = document.createElement('article');
+              card2.setAttribute('class', 'cardArticle')
+              card2.innerHTML += 
+                `<h2 class="namePersonaje">${place.name}</h2>
+                <img class="cardImage" src="${place.img}" alt="Personaje de la película">
+                <p class="infoPersonajes"><span class="letterPink">Climate: </span>${place.climate}</p>
+                <p class="infoPersonajes"><span class="letterPink">Terrain: </span>${place.terrain}</p>
+                <p class="infoPersonajes"><span class="letterPink">Surface Water: </span>${place.surface_water}</p>
+                <p class="infoPersonajes"><span class="letterPink">Residents: </span>${place.residents}</p>`
+  
+              newCardsContainer2.appendChild(card2);
+                    
+            });
+          }
 
         });
       })
