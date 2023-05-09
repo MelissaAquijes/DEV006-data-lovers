@@ -525,3 +525,39 @@ header {
     font-size: 1.8rem;
     padding-left: 20px;
 }
+
+/*----- LOCATIONS -----*/
+.newTitle2Container {
+    margin-top: 50px;
+}
+.noInformation {
+    color: var(--white-color);
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+/*----- VEHICLES -----*/
+.newTitle3Container {
+    margin-top: 50px;
+}
+.cardArticleVehicles {
+    width: 400px;
+    height: 400px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.cardImageVehicle {
+    width: 50%;
+    height: 30%; 
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.descripcion {
+    width: 95%;
+    text-align: justify;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+}
