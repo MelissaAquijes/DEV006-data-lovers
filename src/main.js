@@ -6,6 +6,12 @@ const titleLogoContainer = document.querySelector('.titleLogoContainer');
 const parrafoContainer = document.querySelector('.parrafoContainer');
 const buttonContainer = document.querySelector('.buttonContainer');
 
+const newImagenDescriptionContainer = document.querySelector('.newImagenDescriptionContainer');
+const newTitleContainer = document.querySelector('.newTitleContainer');
+const newDescriptionContainer = document.querySelector('.newDescriptionContainer');
+const newScoreContainer = document.querySelector('.newScoreContainer');
+const newCreatorsContainer = document.querySelector('.newCreatorsContainer');
+
 const filterAlphabet = document.getElementById('filterAlphabet');
 const filterDirector = document.getElementById('filterDirector');
 const filterProducer = document.getElementById('filterProducer');
@@ -53,6 +59,29 @@ fetch('./data/ghibli/ghibli.json')
             document.getElementById('sectionPage-Two').style.display = 'grid';
             portadaVideo.innerHTML=""
           }
+
+          const newPoster = `<img class= 'newImagenDescription' src= ${e.info[0].imageDescription} />`
+          newImagenDescriptionContainer.innerHTML = newPoster;
+
+          const newTitle = `<p class="newTitle">${e.title}<span class="newTitleSpan"> (${e.release_date})</span></p>`
+          newTitleContainer.innerHTML = newTitle
+
+          const newDescription = `<p class="newDescription">${e.description}</p>`
+          newDescriptionContainer.innerHTML = newDescription
+
+          const newScore = 
+            `<p class="titleScore">Score</p>
+            <img class='iconStar' src= ${e.info[0].iconStar}>
+            <p class="numberScore">${e.rt_score}/100</p>`
+          newScoreContainer.innerHTML = newScore
+
+          const newCreators = 
+              `<p><span class="letterPink">Director: </span>${e.director}</p>
+              <p><span class="letterPink">Producer: </span>${e.producer}</p>`
+          newCreatorsContainer.innerHTML = newCreators
+
+
+
         });
       })
     }; 
