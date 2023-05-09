@@ -1,5 +1,5 @@
 :root {
-    --pink-color: rgba(242, 15, 124, 0.5);
+    --pink-color: #f878b6;
     --black-color: #000000;
     --white-color: #FFFFFF;
     --lighBlack--color: #181818;
@@ -35,16 +35,16 @@ html {
 }
 .flexDescubrir {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.LogoGL {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12px;
+    flex-direction: column;
+}
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 .logoGl {
     width: 60px;
@@ -53,59 +53,47 @@ html {
     font-size: 2.3rem;
 }
 .messageDescubrir {
-    width: 75%;
+    width: 100%;
     font-family: 'M PLUS Code Latin', sans-serif;
     font-weight: bold;
     font-size: 4.5rem;
     text-align: center;
-    margin-top: 15px;
-    background: #D692D1;
-    background: linear-gradient(to bottom, #D692D1 10%, #FF3797 20%, #FEC263 70%, #8DF4FE 0%, #D692D1 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
     margin-bottom: 18px;
-}
+}   
 .containerButton {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
+    padding-bottom: 5px;
 }
-.buttonDescubrir {
-    width: 180px;
-    height: 35px;
-    text-align: start;
-    border-radius: 20px;
-    background-color: transparent;
-    border: 2px solid #D692D1;
+.buttonDiscover {
+    width: 150px;
+    height: 45px;
+    background: var(--black-color);
+    border-radius: 10px;
+    border: none;
     font-size: 2rem;
-    font-weight: bold;
-    background: #F7B2C0;
-    background: linear-gradient(to bottom, #F7B2C0 30%, #CB5FCB 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: bold; 
 }
-.buttonDescubrir a {
-    margin-left: 8px;
+.buttonDiscover a {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    text-decoration: none;
+    color: var(--white-color);
+    letter-spacing: 1px;
 }
-.iconFlecha {
-    position: relative;
-    right: 40px;
-    width: 30px;
-    height: 30px;
+.buttonDiscover:hover {
+    background-color: var(--pink-color);
 }
 .gridDescription {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 .descriptionGhibli {
+    width: 100%;
+    display: flex;
+    align-items: center;
     padding: 20px;
     font-family: 'M PLUS Code Latin', sans-serif;
-    font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     text-align: justify;
-    line-height: 40px;
     color: var(--pink-color);
 }
  
@@ -190,6 +178,7 @@ header {
 .navContainer a:hover, :focus-visible {
     text-decoration: underline;
     outline: none;
+    color: var(--pink-color);
 }
 
 /* ------------------ SECCIÓN DE VIDEO ------------------ */
@@ -208,8 +197,8 @@ header {
     position: absolute;
     background: linear-gradient(to top,#181818 15%,transparent);
     width: 70vw;
-    height: 3vw;
-    margin-top: calc(50vh - 3vw);
+    height: 1.1vw;
+    margin-top: calc(50vh - 1vw);
     z-index: 2;
 }
 .portadaInfo {
@@ -230,6 +219,7 @@ header {
 }
 .titleLogoContainer .imgTitle {
     width: 70%;
+    padding: 20px;
 }
 .parrafoContainer{
     display: flex;
@@ -246,7 +236,7 @@ header {
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: 1.6rem;
 }
-/* .buttonContainer {
+.buttonReadMore {
     background-image: url(./Assets/read-more.png);
     background-size: cover;
     width: 50px;
@@ -255,11 +245,11 @@ header {
     cursor: pointer;
     background-color: transparent;
     margin-left: 10vw;
-} */
+}
 .portadaVideo {
     position: relative; 
     height: 100%;
-    background-color: var(--lighBlack--color);
+    background-color: var(--lighBlack--color); 
     display: flex;
     justify-content: end;
     z-index: 0;
@@ -315,11 +305,11 @@ header {
     font-weight: bold;
 }
 .selectOption:hover {
-    box-shadow: 0px 0px 4px 0 #d166dd, 0px 0px 4px 0 #d66, 0px 0px 4px 0 #ddc566;
+    box-shadow: 0px 0px 4px 0 var(--pink-color);
     
 }
 .selectOption:focus {
-    box-shadow: 0px 0px 4px 0 #d166dd, 0px 0px 4px 0 #d66, 0px 0px 4px 0 #ddc566;
+    box-shadow: 0px 0px 4px 0 var(--pink-color);
     outline: none;
 }
 
@@ -332,71 +322,32 @@ header {
     grid-column: 2/3;
     margin-top: 40px;
 }
+.imgContador {
+    width: 30px;
+}
 .contadorParrafo {
     color: var(--white-color);
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: 1.8rem;
     letter-spacing: 2px;
 }
-.imgContador {
-    width: 30px;
+.letterPink {
+    color: var(--pink-color);
 }
-
 /* ------------------ SECCIÓN DE POSTERS  ------------------ */
 .postersContainer {
     grid-column: 2/3;
     background-color: var(--lighBlack--color);
-    /* display: flex;
-    justify-content:space-between; */
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    row-gap: 80px;
-    column-gap: 50px;
-    /* flex-wrap: wrap; */
+    display: flex;
+    column-gap: 2.5vw;
+    row-gap: 2.5vw;
+    flex-wrap: wrap;
     margin: 30px 0px 80px;
 }
 .postersContainer .poster {
-    width: 15vw;
+    width: 12vw;
     cursor: pointer;
     border-radius: 5px;
-    min-width: 210px;
-}
-
-/* ------------------ frase Ghibli , ¿sabias qué? ------------------ */
-.containerFrase1 {
-    background: var(--white-color);
-    grid-area: 2/3/3/5;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fraseGhibli {
-    color: var(--pink-color);
-    font-family: 'M PLUS Code Latin', sans-serif;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 2.3rem;
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 50px;
-}
-.containerFrase2 {
-    background: var(--white-color);
-    grid-area: 5/1/6/3;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.sabiasQueGhibli {
-    color: var(--pink-color);
-    font-family: 'M PLUS Code Latin', sans-serif;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 30px;
-    padding: 15px;
 }
 
 /* ------------------ FOOTER ------------------ */
@@ -413,4 +364,3 @@ header {
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: 1.5rem;
 }
-

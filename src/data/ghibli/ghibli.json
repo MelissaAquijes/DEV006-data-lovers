@@ -193,7 +193,7 @@
           "id": "4e09b023-f650-4747-9ab9-eacf14540cfb",
           "name": "Air Destroyer Goliath",
           "img": "https://static.wikia.nocookie.net/studio-ghibli/images/e/e5/Goliath.png",
-          "description": "A military airship utilized by the government to access Laputa",
+          "description": "A military airship utilized by the government to access Laputa.",
           "vehicle_class": "Airship",
           "length": "1,000",
           "pilot": {
@@ -206,7 +206,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSvFu23XBIvqsQ4oeImhUvGE8xFmKDq-mLtQmBfwKAE4ywBRdAnlAnu7pQrmUm5OGSqkHiOBSI3tH2z_n10wA6Iiecd=w1920-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video123/v4/6e/42/a6/6e42a695-f39c-9150-55f5-4cb485f9d87f/mzvf_14685173448652324180.640x478.h264lc.U.p.m4v",
-        "texto":"In this children's adventure, a young miner and a mysterious girl search for a lost island that, according to legend, hides great wealth."
+        "texto":"In this children's adventure, a young miner and a mysterious girl search for a lost island that, according to legend, hides great wealth.",
+        "imageDescription":"https://images.alphacoders.com/206/206551.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -226,14 +228,14 @@
           "img": "https://static.wikia.nocookie.net/studio-ghibli/images/f/f2/Satsuki_Kusakabe.jpg",
           "gender": "Female",
           "age": "11",
-          "eye_color": "Dark Brown/Black",
+          "eye_color": "Dark Brown",
           "hair_color": "Dark Brown",
           "specie": "Human"
         },
         {
           "id": "d5df3c04-f355-4038-833c-83bd3502b6b9",
           "name": "Mei Kusakabe",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b5/God_Jul_Mei_%C3%B6nskar_fr%C3%A5n_Tomten.jpg",
+          "img": "https://i.pinimg.com/564x/32/b0/8b/32b08bb45a0ffc9d2fc688af00d1f735.jpg",
           "gender": "Female",
           "age": "4",
           "eye_color": "Brown",
@@ -303,7 +305,7 @@
         {
           "id": "c491755a-407d-4d6e-b58a-240ec78b5061",
           "name": "Chibi Totoro",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c5/Little_Totoro_spirit_moving.gif",
+          "img": "https://i.pinimg.com/originals/20/0b/23/200b23680e8fb925b3482ce7389b7e6e.jpg",
           "gender": "NA",
           "age": "",
           "eye_color": "Black",
@@ -361,7 +363,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSHitv13NlPasmzt-3qqjx3TVyFA9iMgACxnxkVO25FkYaE4-tkJO4tqvE8OsgiLK4S9vcKqBp8iWnK9p1bMb9sdatL_g=w1920-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/ee/88/5d/ee885d14-75e4-aa89-d38f-f2aada66c05f/mzvf_8063807238545732413.640x478.h264lc.U.p.m4v",
-        "texto":"When their mother is hospitalized, these two sisters go to the Japanese countryside to spend the summer with their father."
+        "texto":"When their mother is hospitalized, these two sisters go to the Japanese countryside to spend the summer with their father.",
+        "imageDescription":"https://images2.alphacoders.com/499/499590.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -462,7 +466,7 @@
         {
           "id": "62346d33-caa0-4c17-8016-0aca56f3066b",
           "name": "Karikiya",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/e/e3/Majo002.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/4/4a/Karikiya.jpg",
           "climate": "Mild",
           "terrain": "City",
           "surface_water": "30",
@@ -494,7 +498,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOS9-Dz_Ua6IH0siRLP9d0_AzN5AdqB8P0ZYpGwnwjgccI4pxqwsmUVzerMhYvrJnOnnZCrfYghFZ8vl-d4j9PpRJHkl=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video123/v4/a1/73/de/a173dea9-2a77-c484-25b7-a507e21e140a/mzvf_16685457748540574703.640x478.h264lc.U.p.m4v",
-        "texto":"In this animated adventure, Kiki moves out of her parents' house to hone her magic, but discovers that making new friends is harder than it seems."
+        "texto":"In this animated adventure, Kiki moves out of her parents' house to hone her magic, but discovers that making new friends is harder than it seems.",
+        "imageDescription":"https://images3.alphacoders.com/195/195687.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -531,7 +537,7 @@
         {
           "id": "227c01a6-4e29-4582-bc4b-35106a704ab0",
           "name": "Mrs. Yokokawa",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/39/SeitaMother.png",
+          "img": "https://s4.anilist.co/file/anilistcdn/character/large/b133870-kfO1GVk2plls.png",
           "gender": "Female",
           "age": "Adult",
           "eye_color": "Black",
@@ -541,7 +547,7 @@
         {
           "id": "023306e3-9fc6-4d1d-b681-d4649dcbfff9",
           "name": "Kiyoshi Yokokawa",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/f/f6/SeitaFather3.jpg",
+          "img": "https://pm1.narvii.com/7629/7962e6aee3ab292975ac5411f2fddaa23accfecfr1-360-450v2_00.jpg",
           "gender": "Male",
           "age": "40",
           "eye_color": "Black",
@@ -551,7 +557,7 @@
         {
           "id": "0e18b23d-1f21-4a83-a6de-f01147624875",
           "name": "Seita's Aunt",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/09/SeitaAunt.jpg",
+          "img": "https://smc1417.files.wordpress.com/2013/08/20130805-123508.jpg",
           "gender": "Female",
           "age": "Elder",
           "eye_color": "Black",
@@ -565,7 +571,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORn0pflxMJ-iukEVlSp2X2yBowgXczKatbWshRfYkR4_b_j2ACUtQ2Fv2rmCs3BpLHARsWBIpmGruohLYhP1k7-XW3N=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video122/v4/a3/9e/a4/a39ea42d-7691-c85e-0f60-d5ccca0fd038/mzvf_4031835265862453961.640x478.h264lc.U.p.m4v",
-        "texto":"In this animated adventure, Kiki moves out of her parents' house to hone her magic, but discovers that making new friends is harder than it seems."
+        "texto":"Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. With no surviving relatives and their emergency rations depleted, they struggle to survive.",
+        "imageDescription":"https://images5.alphacoders.com/793/793364.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -602,7 +610,7 @@
         {
           "id": "52ed5cad-2464-481f-9786-8533b8de95ff",
           "name": "Mr. Okajima",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/5/58/Mr._Okajima.png",
+          "img": "https://www.personality-database.com/profile_images/215189.png",
           "gender": "Male",
           "age": "Middle age",
           "eye_color": "Black",
@@ -708,7 +716,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOTLPpZBDL3i_6m3XlcvFgHHWhyJUy7pxClA_X1i_qri62iiNNq0o_RhzUhQB4iI094uji93xVdX1YxeB2A01DT_ziBXbg=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/70/b7/44/70b74460-ebac-0d86-b5bb-71d45932a780/mzvf_2082214388910286580.640x458.h264lc.U.p.m4v",
-        "texto":"A 27-year-old girl from Tokyo embarks on a trip to the countryside and is accompanied on her way by vivid childhood memories, including fruits and first loves."
+        "texto":"A 27-year-old girl from Tokyo embarks on a trip to the countryside and is accompanied on her way by vivid childhood memories, including fruits and first loves.",
+        "imageDescription":"https://images5.alphacoders.com/808/808663.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -745,7 +755,7 @@
         {
           "id": "4a2e2cee-08ca-4d44-9564-2b3e5421bafb",
           "name": "Fio Piccolo",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/1/16/Fio_%282%29.jpg",
+          "img": "https://static.wikia.nocookie.net/disney/images/0/0f/Fio_2.jpg",
           "gender": "Female",
           "age": "17",
           "eye_color": "Brown",
@@ -810,7 +820,7 @@
         {
           "id": "d8f893b5-1dd9-41a1-9918-0099c1aa2de8",
           "name": "Red Wing",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8f/Porco%27s_Plane.jpg",
+          "img": "https://corndogchatsdotcom.files.wordpress.com/2016/02/porcorosso1.jpg",
           "description": "An experimental aircraft captured by Porco. Named Savoia S.21",
           "vehicle_class": "Airplane",
           "length": "20",
@@ -836,7 +846,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQ6FT64C2G2qNpN5QyAzi9oiXxUiYAiuH3GtQp-IoBLTufSjtEaxJGVguHiHZnyc43SMsQ0d_Dd7lBB7EngE30AWIUbwA=w1920-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/4b/3e/71/4b3e712a-c05d-62ce-a527-84c5920b524d/mzvf_2342784131311065923.640x478.h264lc.U.p.m4v",
-        "texto":"Air pirates terrorize the Adriatic Sea and only one Italian pilot summons the courage to face them: even if he is half man, half pig."
+        "texto":"Air pirates terrorize the Adriatic Sea and only one Italian pilot summons the courage to face them: even if he is half man, half pig.",
+        "imageDescription":"https://images4.alphacoders.com/206/206768.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -917,7 +929,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOST7mugSmhtX-Cn-CKJq0bkllfV-VXBXs5dseLb1vJVokOx6XnXD4x_J7D4LR8a9653JzfLfNxF1IcN3PSkW6nKl0Vi=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/dd/da/cd/dddacd7c-acf5-f9f8-9a0e-05e9f78307a8/mzvf_7279926235629657826.640x478.h264lc.U.p.m4v",
-        "texto":"Driven from their forests by human development, the raccoons of the Tama Hills strike back with their powers of transformation... if they can get it right."
+        "texto":"Driven from their forests by human development, the raccoons of the Tama Hills strike back with their powers of transformation... if they can get it right.",
+        "imageDescription":"https://images.alphacoders.com/809/809764.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -1026,7 +1040,7 @@
         {
           "id": "42f787d8-1fcb-4d3d-82f2-a74409869368",
           "name": "Seiji's House",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/a/a7/Mimi011.jpg",
+          "img": "https://4.bp.blogspot.com/-j6BLGsWk_-s/Vz0DVVDgGwI/AAAAAAAACw0/OgSwl4zFgZwBVSFTAaff-DfYOrxtzC6vwCLcB/s1600/2016-05-18%2B%252814%2529.png",
           "climate": "Continental",
           "terrain": "City",
           "surface_water": "0",
@@ -1040,7 +1054,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQvekkQycSW6Pm8Pwu7FT8LpGqLJKOYGhFzEg4pH8HSqProz1egIlT1bG6k_dXaxraMK38-hxcuhFICOHemE027GYEX=w1920-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video123/v4/93/2d/f1/932df134-a21b-f472-8dcf-38732c8a275e/mzvf_9600095932361313313.640x478.h264lc.U.p.m4v",
-        "texto":"After noticing that all of her library books have already been checked out by the same person, Shizuku sets out to meet her and pursue her dreams."
+        "texto":"After noticing that all of her library books have already been checked out by the same person, Shizuku sets out to meet her and pursue her dreams.",
+        "imageDescription":"https://images6.alphacoders.com/831/831830.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -1077,7 +1093,7 @@
         {
           "id": "34277bec-7401-43fa-a00a-5aee64b45b08",
           "name": "Eboshi",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/9/9f/Eboshi.png",
+          "img": "https://i.pinimg.com/564x/d0/02/bd/d002bd778e61c68173e1c0b5cc6c9773.jpg",
           "gender": "Female",
           "age": "Adult",
           "eye_color": "Hazel",
@@ -1191,7 +1207,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQKXVzZEb4jSC_Jb7G_dfppqOQ8IwL3ymYLf84KgnyLSJb14VJcmHBqzdoUM5VmfH3QXVWQfQI4Tx15gzUPqpnGxHf1kg=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video123/v4/36/7c/8d/367c8de0-6ab6-8f4a-43f7-bfde6306b93f/mzvf_10845809835624336098.640x478.h264lc.U.p.m4v",
-        "texto":"A prince injured by a deadly curse travels in search of a cure and finds himself in the middle of a battle between a mining town and the animals of the forest."
+        "texto":"A prince injured by a deadly curse travels in search of a cure and finds himself in the middle of a battle between a mining town and the animals of the forest.",
+        "imageDescription":"https://images2.alphacoders.com/185/185692.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -1262,7 +1280,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOS8J-m8Su5jR2CUZu0mSvxirnQdmRK9p2M3A4ujeYdFtYHXMKtL7IIuAP3_ZseSviAj-uCoxj114Q2rFufFLyoJL0Cy9Q=w1920-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/85/86/a8/8586a85d-85b3-2fa5-8518-c6533e2813a0/mzvf_9462816128049012045.640x478.h264lc.U.p.m4v",
-        "texto":"Little Nonoko and the other members of the quirky Yamada family manage the clever adventures and daily challenges of life in modern-day Japan."
+        "texto":"Little Nonoko and the other members of the quirky Yamada family manage the clever adventures and daily challenges of life in modern-day Japan.",
+        "imageDescription":"https://images8.alphacoders.com/808/808053.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -1329,7 +1349,7 @@
         {
           "id": "cf0a2a1b-8b65-4794-98ae-bd89de49fa62",
           "name": "Lin",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/35/Lin-HBO_Max.png",
+          "img": "https://cosplayfu-website.s3.amazonaws.com/_Photo/character/mini/8009.jpg",
           "gender": "Female",
           "age": "Adult",
           "eye_color": "Brown",
@@ -1406,7 +1426,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQwTRBo4uNcVmIoPJBllNVnRGwdinDvl-EHOa1KqGpj5IqfVAXrnBfoOMfaITVBuCcMTnR9k3IJ9ZSKRmh-h9kVuKKA-g=w1920-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/8f/a0/51/8fa0515d-188c-92c8-a053-1005eb673789/mzvf_12311556880839577992.640x478.h264lc.U.p.m4v",
-        "texto":"During her family's move to the suburbs, a 10-year-old girl finds herself in a world ruled by gods, witches and spirits, and where humans are turned into beasts."
+        "texto":"During her family's move to the suburbs, a 10-year-old girl finds herself in a world ruled by gods, witches and spirits, and where humans are turned into beasts.",
+        "imageDescription":"https://images4.alphacoders.com/574/57474.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -1515,7 +1537,7 @@
         {
           "id": "a8bd9c03-7c80-4a97-b7c0-6a668acaf576",
           "name": "The Cat Kingdom",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/a/a9/Baron022.jpg",
+          "img": "https://i.pinimg.com/originals/f8/7d/e0/f87de060d8f3b4aec2baacace4170ca7.jpg",
           "climate": "Continental",
           "terrain": "Plain",
           "surface_water": "30",
@@ -1544,7 +1566,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOT_gGcRJhiGbpP8R0qOfE7Q08rij6CbVW9RZIl3UEvCBgTNPtSbKKeMGAaGjfcNsyAmLwFiRfZFnUr7HeKkzMaNiLIwCQ=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/a4/a7/b8/a4a7b8a1-ff59-7a06-c410-a2c5bd18cfa0/mzvf_9597949659597898179.640x478.h264lc.U.p.m4v",
-        "texto":"Haru saves a cat from being hit by a truck. But it is not an ordinary cat, it is Lune, the Prince of the Kingdom of Cats."
+        "texto":"Haru saves a cat from being hit by a truck. But it is not an ordinary cat, it is Lune, the Prince of the Kingdom of Cats.",
+        "imageDescription":"https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2019/12/cat_07s16c52_t2.0246.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -1581,7 +1605,7 @@
         {
           "id": "1287b275-6c32-4113-947f-519316d4a6be",
           "name": "Witch of the Waste",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/e/e1/Howls-moving-castle-disneyscreencaps.com-10507.jpg",
+          "img": "https://static.wikia.nocookie.net/howlscastle/images/e/e7/64074.jpg",
           "gender": "Female",
           "age": "59",
           "eye_color": "Brown",
@@ -1611,7 +1635,7 @@
         {
           "id": "45237428-93bf-4dd6-97ce-f10647300429",
           "name": "Prince Justin or Turnip Head",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d9/Prince_Justin.png",
+          "img": "https://static.wikia.nocookie.net/howlscastle/images/2/25/3613-447544121.jpg",
           "gender": "Male",
           "age": "20-30",
           "eye_color": "Grey",
@@ -1690,7 +1714,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQZt6_wLjzAoVezJzjUIRfGhhsx7GSC5jaEj-Wbthpoodzj48JW4jyT5qh6UHDa8ScREEIqGSXR0wVzxIDH0-9WX6XD0g=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/56/d5/f6/56d5f61a-63c1-9bff-5160-6cd60eafed8a/mzvf_12996114069663906833.640x478.h264lc.U.p.m4v",
-        "texto":"Sophie is a teenager who works in a hat shop in a town like many, but her life is turned upside down when a witch transforms her into an old woman."
+        "texto":"Sophie is a teenager who works in a hat shop in a town like many, but her life is turned upside down when a witch transforms her into an old woman.",
+        "imageDescription":"https://images8.alphacoders.com/792/792194.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -1789,7 +1815,7 @@
         {
           "id": "bcc54f38-8847-45b0-97b1-307c94b2b517",
           "name": "Enland",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/0e/Ged007.jpg",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjDP1kE66wKK1uA8fjRJ3HrAJNvCuPWW517Q&usqp=CAU",
           "climate": "Wet",
           "terrain": "Earthsea",
           "surface_water": "100",
@@ -1803,7 +1829,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOTk34BGfvurm95o5Docv2oPTyifu2ae3PKsnFXIPsGv39FzpuXGxic0jdXAkHIvvm7sdz2ZwzEi3R5KHxowoYL98V8j1w=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/16/ab/c9/16abc94f-c9f9-9e52-2572-45b51db94607/mzvf_14409697958102748099.640x458.h264lc.U.p.m4v",
-        "texto":"In a world in decay, an archmage leads a tormented prince on a journey to find the source of evil and save the women they love."
+        "texto":"In a world in decay, an archmage leads a tormented prince on a journey to find the source of evil and save the women they love.",
+        "imageDescription":"https://images.alphacoders.com/817/817615.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -1840,7 +1868,7 @@
         {
           "id": "0cb26464-3416-4490-8f42-cd9d7276884e",
           "name": "Kōichi",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/4/49/Sosuke%27s_Father.png",
+          "img": "https://i.pinimg.com/originals/eb/21/15/eb2115c7a7b9f75b0cf98b251d04e7a8.jpg",
           "gender": "Male",
           "age": "30",
           "eye_color": "Dark brown",
@@ -1946,7 +1974,7 @@
         {
           "id": "923d70c9-8f15-4972-ad53-0128b261d628",
           "name": "Sosuke's Boat",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/PonyoS%C5%8DsukeBoat.jpg",
+          "img": "https://i.pinimg.com/originals/f2/fc/3f/f2fc3f6e261e04054b7cd64c5019b494.png",
           "description": "A toy boat where Sosuke plays",
           "vehicle_class": "Boat",
           "length": "10",
@@ -1960,7 +1988,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSUZS3kMwRcsceD2PcHy5pukVRIaviMtplTwGVx5etL3FsFqUck7cyuU8sSsTWfTQ8GQx5_haoKK_prHQFJ_kSmmoArZg=w1920-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video123/v4/cf/01/32/cf013239-c6c5-fdf2-f44f-4641450d9116/mzvf_12750843038079895685.640x478.h264lc.U.p.m4v",
-        "texto":"Sosuke, a 5-year-old boy, forges a friendship with a little fish princess whom he names Ponyo, who desperately wants to be human."
+        "texto":"Sosuke, a 5-year-old boy, forges a friendship with a little fish princess whom he names Ponyo, who desperately wants to be human.",
+        "imageDescription":"https://images3.alphacoders.com/809/809783.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -2059,7 +2089,7 @@
         {
           "id": "1e7ed524-4b4f-466b-978c-69dda9777396",
           "name": "Sho's house",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/8/86/Karigurashi002.jpg",
+          "img": "https://asianwiki.com/images/f/f7/The_Secret_World_of_Arrietty.jpg",
           "climate": "Warm",
           "terrain": "Forest",
           "surface_water": "10",
@@ -2070,7 +2100,7 @@
         {
           "id": "f2148ab5-f272-4057-b05a-1321e35227b4",
           "name": "Karigurashi's house",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/cd/Karigurashi019.jpg",
+          "img": "https://w.wallha.com/ws/13/EJUxhrTv.jpg",
           "climate": "Warm",
           "terrain": "Under the floorboards",
           "surface_water": "10",
@@ -2084,7 +2114,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSJhOhvMjKLMsiCHQkeA6U5djeM1163XAAJvi0bCnK2s_u7fALsK6fv29qoBGGP0Kdj-Qf6c9VoOGb_ZUkvADIhjDiUWw=w1920-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/cf/fc/7c/cffc7c8f-6f1a-fac4-70d5-3fb2fa5d8185/mzvf_16975152286354944775.640x478.h264lc.U.p.m4v",
-        "texto":"A tiny 'tenant' befriends a boy much bigger than her, and must hide her family from the human giants."
+        "texto":"A tiny 'tenant' befriends a boy much bigger than her, and must hide her family from the human giants.",
+        "imageDescription":"https://images2.alphacoders.com/801/801037.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -2197,7 +2229,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOTGIty6Nq72jn0DrNF_UQLxSCQF5E3_ge4feNOJ7i8Du-V9dXlZq74RwDCsPA2DAzNHIHFaknbi75OvfrWpzLMTFwv8gQ=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video123/v4/2b/e5/a6/2be5a649-8ffb-57be-ed43-bcd10cda447d/mzvf_754910350931589025.640x458.h264lc.U.p.m4v",
-        "texto":"A group of Yokohama teenagers seek to save their school's clubhouse from the wrecking ball in preparation for the 1964 Tokyo Olympics."
+        "texto":"A group of Yokohama teenagers seek to save their school's clubhouse from the wrecking ball in preparation for the 1964 Tokyo Olympics.",
+        "imageDescription":"https://images5.alphacoders.com/520/520174.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -2296,7 +2330,7 @@
         {
           "id": "2b380662-626d-42fb-9e3a-14f951201c8b",
           "name": "Nagoya",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/2/20/Kazetachinu009.jpg",
+          "img": "https://res.cloudinary.com/jnto/image/upload/w_1080,h_600,c_fill,f_auto,fl_lossy,q_60/v1/media/filer_public/51/48/5148c752-a793-43bf-9e4f-349180dd0538/kazetachinu028_vebbsf",
           "climate": "Damp",
           "terrain": "Hill",
           "surface_water": "20",
@@ -2309,7 +2343,7 @@
         {
           "id": "411f66ed0-771c-46d3-8f68-a3b65c6dd91c",
           "name": "Mitsubishi 1MF9 ",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/4/41/Kazetachinu044.jpg",
+          "img": "https://canime.files.wordpress.com/2014/08/wind_rises_019rs.jpg",
           "description": "The Mitsubishi 1MF9 or Mitsubishi Experimental Taka-type Carrier Fighter was a prototype Japanese fighter aircraft of the 1920s. It was a single-engined, single-seat biplane intended to operate from the Imperial Japanese Navy's aircraft carriers, but only two were built, with the type being rejected by the Navy.",
           "vehicle_class": "War plane",
           "length": "8",
@@ -2323,7 +2357,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQGXcBLb0TzP9j2G8jchs3tB9rvu_ILI0L_WT4mvLkDDKmWyipbRUKiNQGM82g-nM9n4Q3MwTsXYj-pz6ntbUVOVHdcMg=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video124/v4/0d/30/73/0d307314-c926-18c9-3a32-9a8dec59a9d7/mzvf_7940848594066112303.640x458.h264lc.U.p.m4v",
-        "texto":"A look into the life of Jiro Horikoshi, the man who designed Japanese fighter planes during World War II."
+        "texto":"A look into the life of Jiro Horikoshi, the man who designed Japanese fighter planes during World War II.",
+        "imageDescription":"https://images.alphacoders.com/589/589194.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -2350,7 +2386,7 @@
         {
           "id": "a21fbdd5-16bc-4931-80d0-3ce89ffce778",
           "name": "Sutemaru",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/37/Sutemaru.PNG",
+          "img": "https://cdn.anisearch.com/images/character/screen/51/51147/full/344835.webp",
           "gender": "Male",
           "age": "Adult",
           "eye_color": "Black",
@@ -2360,7 +2396,7 @@
         {
           "id": "4c697b7d-4f64-4ac9-ae29-e155eb1693f3",
           "name": "Ishitsukuri",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/5/5c/Ghibli-kaguya-ishitsukuri.jpg",
+          "img": "https://feelinganimatedblog.files.wordpress.com/2021/03/prince-ishitsukuri-holding-a-flower.jpg",
           "gender": "Male",
           "age": "Adult",
           "eye_color": "Black",
@@ -2400,7 +2436,7 @@
         {
           "id": "942fb1029-b51f-4100-8bee-86547c09b0ff",
           "name": "Inbe no Akita",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/1/1c/Ghibli-kaguya-akita.jpg",
+          "img": "https://kotoyumin.com/wp-content/uploads/2018/05/null-5-21.jpg",
           "gender": "Male",
           "age": "Elder",
           "eye_color": "Black",
@@ -2422,7 +2458,7 @@
         {
           "id": "682df5c3-b09e-46af-94d1-ae0d17f9b4b6",
           "name": "Bamboo Forest",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/e/ec/Ghibli-kaguya-bamboo-forest.jpg",
+          "img": "https://pbs.twimg.com/media/DYM8i_qWAAAVNJT.jpg:large",
           "climate": "Tropical",
           "terrain": "Forest",
           "surface_water": "10",
@@ -2436,7 +2472,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQMwqju9AAp56Q8yXNvttNdWb9ZSaDNURwVOfcqyIznR-kQ2qWrSW_fwWZ9e2vDWR34ClZxLxBsEFvSErhpuZbo8s5bQw=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video123/v4/6a/87/07/6a87074b-4955-d5b5-b498-4596b0b8a330/mzvf_4414175332547392278.640x458.h264lc.U.p.m4v",
-        "texto":"A magical nymph drawn from a bamboo stalk quickly turns into a beautiful woman who is pursued by several enamored suitors."
+        "texto":"A magical nymph drawn from a bamboo stalk quickly turns into a beautiful woman who is pursued by several enamored suitors.",
+        "imageDescription":"https://images5.alphacoders.com/790/790707.jpg",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     },
@@ -2463,7 +2501,7 @@
         {
           "id": "28d07ace-c309-48c6-b48e-ae2ece3a238c",
           "name": "Anna Sasaki",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/a/ae/Anna.png",
+          "img": "https://64.media.tumblr.com/3340fa56afa3468ca85681d53804f920/tumblr_ns0061RupE1uzx0xzo1_500.png",
           "gender": "Female",
           "age": "12",
           "eye_color": "Blue",
@@ -2493,7 +2531,7 @@
         {
           "id": "66bca178-9920-4ec3-91e9-0d5b8a76dba1",
           "name": "Setsu Oiwa",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/6/6e/Setsu.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/7/78/Setsu_Ooiwa.jpg",
           "gender": "Female",
           "age": "50-60",
           "eye_color": "Dark brown",
@@ -2503,7 +2541,7 @@
         {
           "id": "5b8e4413-f943-40ba-8f9f-0ba059a401f0",
           "name": "Hisako",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/9/93/Hisako.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/6/61/Hisako.jpg",
           "gender": "Female",
           "age": "Elder",
           "eye_color": "Dark brown",
@@ -2533,7 +2571,7 @@
         {
           "id": "31b49ef6-ee60-4603-b983-e67fa0718aa9",
           "name": "Kiyomasa Ōiwa",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d7/Kiyomasa.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/0f/Kiyomasa_Ooiwa.jpg",
           "gender": "Male",
           "age": "50-60",
           "eye_color": "Dark brown",
@@ -2543,7 +2581,7 @@
         {
           "id": "5d52d16f-ce72-41bd-8d88-436e206d9449",
           "name": "Doctor Yamashita",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8a/Yamashita.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Doctor_Yamashita.jpg",
           "gender": "Male",
           "age": "Adult",
           "eye_color": "Black",
@@ -2567,7 +2605,9 @@
         {
         "logoTitleUrl": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORu6v8PYLkZk95AxfdpYvGjax6k6XwTRilYuZhfmXl7CTxMOpxFU5IkWlwaS-DQVfda_Xj-BpLUkBln6AwysqDbLgMn=w1298-h902",
         "video":"https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/94/2c/47/942c4709-7812-f723-05da-749b9f9cb5ab/mzvf_13322940422090995219.640x458.h264lc.U.p.m4v",
-        "texto":"Anna is forced to spend the summer in a town by the sea, where she befriends a mysterious blonde girl who lives in an almost abandoned mansion."
+        "texto":"Anna is forced to spend the summer in a town by the sea, where she befriends a mysterious blonde girl who lives in an almost abandoned mansion.",
+        "imageDescription":"https://occ-0-6205-185.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbrpzBp6R1uU3B2dsFsoC0XWCk505FcldQiiYm5yBxuvSeF7Aaswap2I5ZCqyJkWWcILE8rvyJ9fzL3dOQCWRGZaWWG3l2Dww60p.jpg?r=7b9",
+        "iconStar":"https://img.icons8.com/?size=512&id=8ggStxqyboK5&format=png"
         }
       ]
     }
