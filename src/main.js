@@ -11,6 +11,9 @@ const newTitleContainer = document.querySelector('.newTitleContainer');
 const newDescriptionContainer = document.querySelector('.newDescriptionContainer');
 const newScoreContainer = document.querySelector('.newScoreContainer');
 const newCreatorsContainer = document.querySelector('.newCreatorsContainer');
+const newTitle1Container = document.querySelector('.newTitle1Container');
+const newContadorContainer = document.querySelector('.newContadorContainer');
+const newCardsContainer = document.querySelector('.newCardsContainer');
 
 const filterAlphabet = document.getElementById('filterAlphabet');
 const filterDirector = document.getElementById('filterDirector');
@@ -80,7 +83,27 @@ fetch('./data/ghibli/ghibli.json')
               <p><span class="letterPink">Producer: </span>${e.producer}</p>`
           newCreatorsContainer.innerHTML = newCreators
 
+          const newTitleCharacters = `<h2 class="titlePeliculas">Characters</h2>`
+          newTitle1Container.innerHTML = newTitleCharacters
 
+          const newContadorCharacters = `<p class="contadorParrafo"><span class="letterPink">You are watching:</span> ${e.people.length} personajes</p>`
+          newContadorContainer.innerHTML = newContadorCharacters
+
+          //Creación de cards de personajes
+          e.people.forEach(element => {
+            const card = document.createElement('article');
+            card.setAttribute('class', 'cardArticle')
+            card.innerHTML += 
+              `<h2 class="namePersonaje">${element.name}</h2>
+              <img class="cardImage" src="${element.img}" alt="Personaje de la película">
+              <p class="infoPersonajes"><span class="letterPink">Gender:</span> ${element.gender}</p>
+              <p class="infoPersonajes"><span class="letterPink">Age:</span> ${element.age}</p>
+              <p class="infoPersonajes"><span class="letterPink">Eye Color:</span> ${element.eye_color}</p>
+              <p class="infoPersonajes"><span class="letterPink">Specie:</span> ${element.specie}</p>`
+
+            newCardsContainer.appendChild(card);
+  
+          });
 
         });
       })
