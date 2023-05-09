@@ -400,3 +400,89 @@ header {
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: 1.5rem;
 }
+
+/*------------------- SECCION DE INFORMACION DE CADA PELICULA (sectionPage-Two) -----------------*/
+.sectionPage-Two {
+    display: none;
+}
+.newImagenDescriptionContainer{
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+}
+.newImagenDescription{
+    width: 70%;
+}
+.newIconBackInicio {
+    position: sticky;
+    top: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.iconBack {
+    width: 70px;
+}
+.newTitleContainer {
+    grid-column: 2/3;
+    margin-top: 21px;
+}
+.newTitle {
+    color: var(--white-color);
+    font-family: 'M PLUS Code Latin', sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+}
+.newTitleSpan {
+    font-size: 2.5rem;
+}
+.newDescriptionContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+    margin-top:21px;
+    border-top: 1px solid #9F9F9F;
+}
+.newDescription {
+    width: 70%;
+    color: var(--white-color);
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.newDetailsContainer {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    border-bottom: 1px solid #9F9F9F; 
+    font-family: 'M PLUS Code Latin', sans-serif;
+    color: var(--white-color);
+}
+.newScoreContainer {
+    width: 35%;
+    text-align: center; 
+    margin-bottom: 35px;
+}
+.titleScore {
+    font-size: 1.7rem;
+    letter-spacing: 1.5px;
+    color: var(--pink-color);
+}
+.iconStar {
+    width: 40px;
+}
+.numberScore {
+    font-size: 2.5rem;
+}
+.newCreatorsContainer {
+    width: 35%;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
