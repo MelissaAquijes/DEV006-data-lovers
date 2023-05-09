@@ -60,11 +60,20 @@ fetch('./data/ghibli/ghibli.json')
           const boton = document.getElementById('buttonReadMore');
           boton.addEventListener('click', nextPage);
 
+          const reload = document.getElementById('reloadPage');
+          reload.addEventListener('click', reloadPage);
+
+
           //OCULTAR PAGINA DE POSTERS Y MOSTRAR PÁGINA DE INFORMACION DE CADA PELICULA
           function nextPage() {
             document.getElementById('sectionPage-One').style.display = 'none';
             document.getElementById('sectionPage-Two').style.display = 'grid';
             portadaVideo.innerHTML=""
+          }
+
+          //Actulizar nuestra página
+          function  reloadPage() {
+            location.reload();
           }
 
           const newPoster = `<img class= 'newImagenDescription' src= ${e.info[0].imageDescription} />`
