@@ -16,6 +16,8 @@ const newContadorContainer = document.querySelector('.newContadorContainer');
 const newCardsContainer = document.querySelector('.newCardsContainer');
 const newTitle2Container = document.querySelector('.newTitle2Container');
 const newCardsContainer2 = document.querySelector('.newCardsContainer2');
+const newTitle3Container = document.querySelector('.newTitle3Container');
+const newCardsContainer3 = document.querySelector('.newCardsContainer3');
 
 const filterAlphabet = document.getElementById('filterAlphabet');
 const filterDirector = document.getElementById('filterDirector');
@@ -128,6 +130,28 @@ fetch('./data/ghibli/ghibli.json')
                     
             });
           }
+
+          //Creación de cards de vehiculos
+          const newTitle3Vehicles = `<h2 class="titlePeliculas">Vehicles</h2>`
+          newTitle3Container.innerHTML = newTitle3Vehicles
+
+          if (e.vehicles.length === 0) {
+            newCardsContainer3.innerHTML = `<p class="noInformation">There is no information :(</p>`
+          } else {
+            e.vehicles.forEach( mobility => {
+              const card3 = document.createElement('article');
+              card3.setAttribute('class', 'cardArticleVehicles')
+              card3.innerHTML += 
+                `<h2 class="namePersonaje">${mobility.name}</h2>
+                <img class="cardImageVehicle" src="${mobility.img}" alt="Personaje de la película">
+                <p class="infoPersonajes descripcion">${mobility.description}</p>
+                <p class="infoPersonajes"><span class="letterPink">Vehicle Class: </span>${mobility.vehicle_class}</p>
+                <p class="infoPersonajes"><span class="letterPink">Length: </span>${mobility.length}</p>
+                <p class="infoPersonajes"><span class="letterPink">Pilot: </span>${mobility.pilot.name}</p>`
+
+              newCardsContainer3.appendChild(card3);
+            });
+          } 
 
         });
       })
