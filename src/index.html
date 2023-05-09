@@ -17,7 +17,7 @@
   <header>
     <!--------------------------- MENSAJE DE BIENVENIDA ----------------------------->
     <section class="sectionBienvenida">
-      <p class="msjBienvenida">Welcome to the Ghibli Lovers Fan Page</p> 
+      <p class="msjBienvenida">¡Welcome to the Ghibli Lovers Fan Page!</p> 
  
       <!---------------------------- APPS ----------------------------->
       <section class="apps">
@@ -50,87 +50,61 @@
 </nav>
 
 <!--------------------------- MAIN ----------------------------->
-<main class="container">
+<main>
   <!--------------------------- SECCIÓN DE VIDEO ----------------------------->
-  <section class="portadasContainer">
-    <div class="portadaMascara"></div>
-
-      <div class="portadaInfo">
-        <div class="titleLogoContainer"></div>
-        <div class="parrafoContainer"></div>
-        <button class="button"></button>
-      </div>
-      
-      <div class="portadaVideo"></div> 
-  </section>
-
-  <!--------------------------- TITULO: ANIMATED FILMS ----------------------------->
-  <section class="containerTitlePelicula">
-    <p class="titlePeliculas">Animated Films</p>
-  </section>
-
-  <!--------------------------- SECCIÓN DE FILTROS ----------------------------->
-  <section class="containerFilters">
-    <p class="subtitleFiltros">Filters</p>
-
-    <select name="filterAZ" class="selectOption" id="filterAZ">
-      <option disabled selected>Alphabet</option>
-      <option value="">A-Z</option>
-      <option value="">Z-A</option>
-    </select>
-
-    <select name="director" class="selectOption" id="filterDirector">
-      <option disabled selected>Director</option>
-      <option value="">Hayao Miyazaki</option>
-      <option value="">Isao Takahata</option>
-      <option value="">Yoshifumi Kondo</option>
-      <option value="">Hiroyuki Morita</option>
-      <option value="">Goro Miyazaki</option>
-      <option value="">Hiromasa Yonebayashi</option>
-    </select>
-
-    <select name="producer" class="selectOption" id="filterProducer">
-      <option disabled selected>Producer</option>
-      <option value="">Isao Takahata</option>
-      <option value="">Hayao Miyazaki</option>
-      <option value="">Toru Hara</option>
-      <option value="">Toshio Suzuki</option>
-      <option value="">Yoshiaki Nishimura</option>
-    </select>
-      
-    <select name="year" class="selectOption" id="filterYear">
-      <option disabled selected>Year</option>
-      <option value="">Ascendente</option>
-      <option value="">Descendente</option>
-    </select>
-  </section>
-
-   <!--------------------------- SECCIÓN CONTADOR DE PELICULAS ----------------------------->
-  <section class="sectionContadorMovies">
-    <img class="imgContador" src="./Assets/icon1.png" alt="Imagen de un personaje de la Pelicula Tototoro">
-    <p class="contadorParrafo" id="contadorMovies">You are watching 20 movies.</p>
-  </section>
-
-  <!--------------------------- SECCIÓN DE POSTERS ----------------------------->
-  <section class="postersContainer">
-    <!--------------------------- frase ghigli, ¿sabias qué? ----------------------------->
-      <div class="containerFrase1">
-        <p class="fraseGhibli"><b>GHIBLI PHRASE<br></b>(Spirited Away)<br>«Tell me, what are the limits?<br>The limits are three: the sky, the imagination and yourself.»
-          </p>
-      </div>
+  <section class="container" id="sectionPage-One">
+    <section class="portadasContainer">
+      <div class="portadaMascara"></div>
   
-      <div class="containerFrase2">
-        <p class="sabiasQueGhibli"><b>DID YOU KNOW?</b><br>“My Neighbor Totoro” is based on the childhood of Hayao Miyazaki. When Miyazaki and his siblings were young, their mother suffered a long illness and spent a lot of time in the hospital as the mother in the film. All that suffering was channeled by Miyazaki to build the story of "My Neighbor Totoro".</p>
-      </div>
-  </section>
-
+        <div class="portadaInfo">
+          <div class="titleLogoContainer"></div>
+          <div class="parrafoContainer"></div>
+          <div class="buttonContainer"></div>
+        </div>
+        
+        <div class="portadaVideo"></div> 
+    </section>
   
+    <!--------------------------- TITULO: ANIMATED FILMS ----------------------------->
+    <section class="containerTitlePelicula">
+      <p class="titlePeliculas">Animated Films</p>
+    </section>
+  
+    <!--------------------------- SECCIÓN DE FILTROS ----------------------------->
+    <section class="containerFilters">
+      <p class="subtitleFiltros">Filters</p>
+  
+      <select name="filterAZ" class="selectOption" id="filterAlphabet">
+        <option disabled selected>Alphabet</option>
+      </select>
+  
+      <select name="director" class="selectOption" id="filterDirector">
+        <option disabled selected>Director</option>
+      </select>
+  
+      <select name="producer" class="selectOption" id="filterProducer">
+        <option disabled selected>Producer</option>
+      </select>
+        
+      <select name="year" class="selectOption" id="filterYear">
+        <option disabled selected>Year</option>
+      </select>
+    </section>
+  
+     <!--------------------------- SECCIÓN CONTADOR DE PELICULAS ----------------------------->
+    <section class="sectionContadorMovies">
+      <p class="contadorParrafo" id="contadorMovies"></p>
+    </section>
+  
+    <!--------------------------- SECCIÓN DE POSTERS ----------------------------->
+    <section class="postersContainer"></section>
+  </section>
 
 </main>
 
 <!--------------------------- FOOTER ----------------------------->
 <footer class="footerContainer">
-  <p class="parrafoFooter">Copyright © 2023 Alejandra Martínez & Melissa Aquijes</p>
+  <p class="parrafoFooter">Copyright © 2023 Alejandra Martínez and Melissa Aquijes</p>
 </footer>
 
 <script src="./main.js" type="module"></script>
