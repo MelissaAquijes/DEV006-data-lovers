@@ -96,6 +96,42 @@ html {
     text-align: justify;
     color: var(--pink-color);
 }
+
+@media only screen and (max-width: 575.98px) { 
+    .divContainerInicio {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerImagen1 {
+        width: 100%;
+        height: 45vh;
+    }
+    .imagen2, .imagen3 {
+        display: none;
+    }
+    .gridDescription .descriptionGhibli {
+        display: none;
+    }
+    .containerMsj p {
+        width: 100%;
+    }  
+    .flexDescubrir {
+        margin-top: 11%;
+    } 
+}
+
+@media only screen and (max-width: 991.98px) { 
+    .imagen2 {
+        display: none;
+    }
+    .gridDescription p {
+        display: grid;
+        grid-area: 1/1/2/3;
+    }
+    .containerMsj .messageDescubrir {
+        font-size: 3.2rem;
+    }
+ }
  
 /* ------------------ PÁGINA DE PELÍCULAS ------------------ */
 header {
