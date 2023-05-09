@@ -486,3 +486,42 @@ header {
     text-align: center;
     margin-bottom: 35px;
 }
+.newTitle1Container {
+    margin-top: 50px;
+}
+
+/*----- CARDS -----*/
+.newCardsContainer {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    grid-column: 2/3;
+    background-color: var(--lighBlack--color);
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.cardArticle {
+    width: 240px;
+    height: 350px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+.namePersonaje{
+    color: var(--pink-color);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.cardImage{
+    width: 60%;
+    height: 40%; 
+    margin-left: 20%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.infoPersonajes {
+    font-size: 1.8rem;
+    padding-left: 20px;
+}
