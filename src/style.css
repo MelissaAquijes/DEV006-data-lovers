@@ -140,28 +140,30 @@ header {
     grid-template-rows: repeat (2, auto);
 }
 .sectionBienvenida {
+    padding: 12px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     background-color: var(--black-color);
 }
 .msjBienvenida {
+    width: 50%;
+    text-align: start;
     font-family: 'M PLUS Code Latin', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: var(--white-color);
-    padding: 8px 0px 8px 50px;
-    letter-spacing: 2px;
 }
 .apps {
-    padding: 8px 50px 8px 0px;
+    text-align: end;
+    width: 50%;
 }
 .iconApp {
     margin-left: 30px;
+    cursor: pointer;
 }
 .sectionLogo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     height: auto;
 }
 .logoGhibli {
@@ -171,12 +173,13 @@ header {
 .titleghibliLovers {
     font-size: 3rem;
 }
+
+/*------- NAV -------*/
 .navContainer {
     width: 100%;
     padding: 12px;
-    display: grid;       
-    grid-template-columns: repeat(5, 1fr);
-    justify-items: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     background: var(--black-color);
 }
@@ -207,7 +210,7 @@ header {
 .navContainer a {
     font-weight: 300;
     text-decoration: none;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-family: 'M PLUS Code Latin', sans-serif;
     color: var(--white-color);
 }
@@ -254,8 +257,8 @@ header {
     max-height: 20vh;
 }
 .titleLogoContainer .imgTitle {
-    width: 70%;
-    padding: 20px;
+    width: 300px;
+    padding: 0px 20px 0px;
 }
 .parrafoContainer{
     display: flex;
@@ -375,13 +378,13 @@ header {
     grid-column: 2/3;
     background-color: var(--lighBlack--color);
     display: flex;
-    column-gap: 2.5vw;
-    row-gap: 2.5vw;
+    justify-content: space-between;
+    gap: 40px;
     flex-wrap: wrap;
     margin: 30px 0px 80px;
 }
 .postersContainer .poster {
-    width: 12vw;
+    width: 220px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -400,6 +403,77 @@ header {
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 500.98px) { 
+    .buttonContainer {
+        position: absolute;
+        top: 250px;
+        left: 100px;
+    }
+ }
+
+ @media only screen and (max-width: 991.98px) { 
+    .msjBienvenida {
+        text-align: center;
+    }
+    .navContainer a {
+        text-align: center;
+        padding: 10px;
+    }
+    .containerInput {
+        display: none;
+    }
+    .container .portadaMascara {
+        display: none;
+    }
+    .portadaInfo {
+        background: transparent;
+    }
+    .titleLogoContainer {
+        display: none;
+    }
+    .parrafoContainer .parrafo {
+        display: none;
+    }
+    .buttonContainer {
+        position: absolute;
+        top: 260px;
+        left: 100px;
+    }
+    .portadaVideo .video {
+        height: 100%;
+    }
+    .container .titlePeliculas {
+        font-size: 3rem;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .subtitleFiltros {
+        display: none;
+    }
+    .selectOption {
+        margin-bottom: 8px;
+    }
+    .container .postersContainer {
+        justify-content: center;
+    }
+    .container .postersContainer .poster {
+        width: 180px;
+    }
+    .parrafoFooter {
+        text-align: center;
+    }
+ } 
+
+ @media only screen and (max-width: 1070.98px) {
+    .titleLogoContainer .imgTitle {
+        width: 230px;
+        margin-bottom: 40px;
+    }
+    .buttonContainer {
+        margin-top: 35px;
+    }
+ }
 
 /*------------------- SECCION DE INFORMACION DE CADA PELICULA (sectionPage-Two) -----------------*/
 .sectionPage-Two {
@@ -486,6 +560,9 @@ header {
     text-align: center;
     margin-bottom: 35px;
 }
+.newCreatorsContainer p {
+    margin-top: 15px;
+}
 .newTitle1Container {
     margin-top: 50px;
 }
@@ -560,4 +637,32 @@ header {
     text-align: justify;
     margin-bottom: 8px;
     font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 991.98px) {
+    .newImagenDescriptionContainer {
+        display: flex;
+        align-items: center;
+    }
+    .newImagenDescriptionContainer .newImagenDescription {
+        width: 100%;
+        height: 70%;
+    }
+    .newIconBackInicio {
+        right: 28px;
+    }
+    .newIconBackInicio .iconBack {
+        width: 45px;
+    }
+    .newScoreContainer {
+        margin-right: 25%;
+    }
+     
+    .newDescriptionContainer .newDescription {
+        width: 100%;
+    }
+    .newCreatorsContainer p {
+        font-size: 1.3rem;
+        margin-top: 25px;
+    }
 }
