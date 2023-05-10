@@ -47,7 +47,7 @@ fetch('./data/ghibli/ghibli.json')
         postersContainer.appendChild(poster)
   
         poster.addEventListener('click', () => {
-          const video = `<video src= ${e.info[0].video} loop autoplay>`
+          const video = `<video class="video" src= ${e.info[0].video} loop autoplay mute>`
           const parrafo = `<p class='parrafo'>${e.info[0].texto}</p>`
           const titleLogo = `<img class= 'imgTitle' src= ${e.info[0].logoTitleUrl} />`
           const button = `<button class="buttonReadMore" id="buttonReadMore"></button>`
@@ -99,7 +99,7 @@ fetch('./data/ghibli/ghibli.json')
           const newTitleCharacters = `<h2 class="titlePeliculas">Characters</h2>`
           newTitle1Container.innerHTML = newTitleCharacters
 
-          const newContadorCharacters = `<p class="contadorParrafo"><span class="letterPink">You are watching:</span> ${e.people.length} personajes</p>`
+          const newContadorCharacters = `<p class="contadorParrafo"><span class="letterPink">You are watching:</span> ${e.people.length} characters</p>`
           newContadorContainer.innerHTML = newContadorCharacters
 
           //Creación de cards de personajes
