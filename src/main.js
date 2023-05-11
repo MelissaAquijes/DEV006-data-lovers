@@ -205,9 +205,6 @@ fetch('./data/ghibli/ghibli.json')
 
     filterDirector.addEventListener('change', () => {
       switch (filterDirector.value) {
-      case 'all':
-        postersGhibli(dataStudioGhibli);
-        break;
       case 'Hayao Miyazaki':
         postersGhibli(filterDataDirector(dataStudioGhibli, 'Hayao Miyazaki'));
         break;
