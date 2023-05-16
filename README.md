@@ -17,8 +17,8 @@ las creaciones de Studio Ghibli: desde información detallada sobre las películ
 productores y muchas curiosidades del mundo Ghibli.
 
 Ya sea que seas un fanático de Studio Ghibli de toda la vida o simplemente estés buscando una buena película para
-disfrutar, estamos seguros de que encontrarás algo que te encantará en nuestra colección de posters.Sumérgete en la 
-magia de Studio Ghibli y descubre po qué estas películas son tan queridas en todo el mundo.
+disfrutar, estamos seguros de que encontrarás algo que te encantará en nuestra colección de posters. Sumérgete en la 
+magia de Studio Ghibli y descubre por qué estas películas son tan queridas en todo el mundo.
 
 ¡Bienvenido a Ghibli Lovers Fan Page!
 
@@ -137,9 +137,15 @@ y personajes de cada película.
 ### 3.2 Prototipo de baja fidelidad
 [Link al prototipo interactivo de Figma](https://www.figma.com/proto/AUvHq0MHcmJOp4PYmd6T7R/Studio-Ghibli?type=design&node-id=586-10&scaling=scale-down&page-id=55%3A3&starting-point-node-id=586%3A9)
 
+![Boceto de Inicio - Primer Modelo](./src/Assets/boceto-1.jpg)
+![Boceto de Página de Personajes - Primer Modelo](./src/Assets/boceto-2.jpg)
+
 ### 3.3 Prototipo de alta fidelidad
 [Link al prototipo interactivo de Figma](https://www.figma.com/proto/AUvHq0MHcmJOp4PYmd6T7R/Studio-Ghibli?type=design&node-id=130-15&scaling=scale-down&page-id=0%3A1&starting-point-node-id=130%3A15)
 
 ### 3.4 Test de Usabilidad
 
 ## 4. Interfaz de Usuario
+ 
+ ![Sitio Principal](./src/Assets/boceto-1.jpg)
+ ![Sitio Principal](./src/Assets/boceto-2.jpg)
