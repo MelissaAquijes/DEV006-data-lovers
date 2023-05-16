@@ -135,17 +135,38 @@ y personajes de cada película.
     - Por cada vehículo agregaremos su información como nombre, imagen, descripción, clase, longitud y piloto.    
 
 ### 3.2 Prototipo de baja fidelidad
-[Link al prototipo interactivo de Figma](https://www.figma.com/proto/AUvHq0MHcmJOp4PYmd6T7R/Studio-Ghibli?type=design&node-id=586-10&scaling=scale-down&page-id=55%3A3&starting-point-node-id=586%3A9)
+[Link al prototipo interactivo de Figma](https://www.figma.com/proto/AUvHq0MHcmJOp4PYmd6T7R/Studio-Ghibli?type=design&node-id=586-9&scaling=scale-down&page-id=55%3A3&starting-point-node-id=586%3A9)
 
 ![Boceto de Inicio - Primer Modelo](./src/Assets/boceto-1.jpg)
 ![Boceto de Página de Personajes - Primer Modelo](./src/Assets/boceto-2.jpg)
 
 ### 3.3 Prototipo de alta fidelidad
+[Link al prototipo interactivo de Figma - Primer Modelo](https://www.figma.com/proto/AUvHq0MHcmJOp4PYmd6T7R/Studio-Ghibli?type=design&node-id=627-6&scaling=scale-down&page-id=0%3A1&starting-point-node-id=627%3A6&show-proto-sidebar=1)
+
 [Link al prototipo interactivo de Figma](https://www.figma.com/proto/AUvHq0MHcmJOp4PYmd6T7R/Studio-Ghibli?type=design&node-id=130-15&scaling=scale-down&page-id=0%3A1&starting-point-node-id=130%3A15)
 
 ### 3.4 Test de Usabilidad
+A través de la retroalimentación recibida de nuestros usuarios se creo una lista con los posibles
+cambios o inconvenientes de la página. Gracias a la lista se realizaron los cambios necesarios en
+nuestra página para asegurarnos de que la experiencia sea lo mas gratificante para el usuario.
+
+A continuación presentamos una lista que resumen las críticas que recibimos de nuestros usuarios:
+
+- Cambiar la paleta de colores de la interfaz.
+- Cambiar las imágenes de la página de inicio, los colores del texto y modelo de botón.
+- Cambiar la forma de los posters de las películas para identificarlos mejor a cada uno.
+- Retirar la cinta blanca que contiene el nombre de la película.
+- Insertar un trailer de cada video, para dar a conocer mas de que trata la película, con un pequeño
+resumen y un botón para leer mas acerca de la película seleccionada.
+- Retirar las cards de ¿sabías qué? y frase Ghibli.
+- Agregar una barra de navegación para saber más curiosidades de Studio Ghibli.
+- Cambiar la posicion de los filtros.
+- Retirar cards de los productores y directores.
+
 
 ## 4. Interfaz de Usuario
  
  ![Sitio Principal](./src/Assets/pagina-1.png)
+
+
  ![Sitio Principal](./src/Assets/pagina-2.png)
