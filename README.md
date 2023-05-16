@@ -156,13 +156,12 @@ A continuación presentamos una lista que resumen las críticas que recibimos de
 - Cambiar las imágenes de la página de inicio, los colores del texto y modelo de botón.
 - Cambiar la forma de los posters de las películas para identificarlos mejor a cada uno.
 - Retirar la cinta blanca que contiene el nombre de la película.
-- Insertar un trailer de cada video, para dar a conocer mas de que trata la película, con un pequeño
-resumen y un botón para leer mas acerca de la película seleccionada.
+- Insertar un trailer de cada video, para dar a conocer más de que trata la película, con un pequeño
+resumen y un botón para leer más acerca de la película seleccionada.
 - Retirar las cards de ¿sabías qué? y frase Ghibli.
 - Agregar una barra de navegación para saber más curiosidades de Studio Ghibli.
 - Cambiar la posicion de los filtros.
 - Retirar cards de los productores y directores.
-
 
 ## 4. Interfaz de Usuario
  
