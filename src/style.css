@@ -142,11 +142,12 @@ header {
 .sectionBienvenida {
     padding: 12px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--black-color);
 }
 .msjBienvenida {
-    width: 50%;
+    width: 40%;
     text-align: start;
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: 1.7rem;
@@ -179,7 +180,7 @@ header {
     width: 100%;
     padding: 12px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background: var(--black-color);
 }
@@ -665,4 +666,12 @@ header {
         font-size: 1.3rem;
         margin-top: 25px;
     }
+}
+
+
+
+
+.imgVideo {
+    width: 100%;
+    height: 50vh;
 }
