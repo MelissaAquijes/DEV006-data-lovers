@@ -147,5 +147,5 @@ y personajes de cada película.
 
 ## 4. Interfaz de Usuario
  
- ![Sitio Principal](./src/Assets/boceto-1.jpg)
- ![Sitio Principal](./src/Assets/boceto-2.jpg)
+ ![Sitio Principal](./src/Assets/pagina-1.png)
+ ![Sitio Principal](./src/Assets/pagina-2.png)
