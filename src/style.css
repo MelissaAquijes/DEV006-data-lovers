@@ -404,12 +404,26 @@ header {
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: 1.5rem;
 }
+@media only screen and (max-width: 320px) {
+    .buttonContainer .buttonReadMore {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+}
 
 @media only screen and (max-width: 500.98px) { 
     .buttonContainer {
         position: absolute;
         top: 250px;
         left: 100px;
+    }
+    .msjBienvenida {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .apps img {
+        width: 14px;
     }
  }
 
@@ -477,6 +491,13 @@ header {
  }
 
 /*------------------- SECCION DE INFORMACION DE CADA PELICULA (sectionPage-Two) -----------------*/
+.container2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 14vw 70vw 14vw;
+    grid-template-rows: 50vh auto;
+    background-color: var(--lighBlack--color);
+}
 .sectionPage-Two {
     display: none;
 }
@@ -640,6 +661,28 @@ header {
     font-size: 1.4rem;
 }
 
+@media only screen and (max-width: 320px) {
+    .newTitle1Container .titlePeliculas {
+        font-size: 2.5rem;
+    }
+    .newTitle2Container .titlePeliculas {
+        font-size: 2.5rem;
+    }
+    .newTitle3Container .titlePeliculas {
+        font-size: 2.5rem;
+    }
+    .newCardsContainer3 .noInformation {
+        font-size: 1.5rem;
+    }
+    .newCardsContainer2 .noInformation {
+        font-size: 1.5rem;
+    }
+    .newIconBackInicio .iconBack {
+        display: none;
+    }
+
+}
+
 @media only screen and (max-width: 991.98px) {
     .newImagenDescriptionContainer {
         display: flex;
@@ -650,28 +693,32 @@ header {
         height: 70%;
     }
     .newIconBackInicio {
-        right: 28px;
+        right: 45px;
     }
     .newIconBackInicio .iconBack {
-        width: 45px;
+        width: 40px;
     }
     .newScoreContainer {
         margin-right: 25%;
     }
-     
     .newDescriptionContainer .newDescription {
         width: 100%;
+        font-size: 1.6rem;
     }
     .newCreatorsContainer p {
         font-size: 1.3rem;
         margin-top: 25px;
     }
-}
-
-
-
-
-.imgVideo {
-    width: 100%;
-    height: 50vh;
+    .newTitle1Container .titlePeliculas {
+        letter-spacing: 7px;
+    }
+    .newContadorContainer .contadorParrafo {
+        letter-spacing: normal;
+    }
+    .newTitle2Container .titlePeliculas {
+        letter-spacing: 7px;
+    }
+    .newTitle3Container .titlePeliculas {
+        letter-spacing: 7px;
+    }
 }

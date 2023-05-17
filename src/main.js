@@ -126,14 +126,16 @@ fetch('./data/ghibli/ghibli.json')
           } else {
             e.locations.forEach( place => {
               const card2 = document.createElement('article');
-              card2.setAttribute('class', 'cardArticle')
+              card2.setAttribute('class', 'cardArticle');
+
+
               card2.innerHTML += 
                 `<h2 class="namePersonaje">${place.name}</h2>
                 <img class="cardImage" src="${place.img}" alt="Personaje de la película">
                 <p class="infoPersonajes"><span class="letterPink">Climate: </span>${place.climate}</p>
                 <p class="infoPersonajes"><span class="letterPink">Terrain: </span>${place.terrain}</p>
                 <p class="infoPersonajes"><span class="letterPink">Surface Water: </span>${place.surface_water}</p>
-                <p class="infoPersonajes"><span class="letterPink">Residents: </span>${place.residents}</p>`
+                <p class="infoPersonajes"><span class="letterPink">Residents: </span>${place.residents.length==1 ? place.residents : place.residents.map(e=> {return e.name})}</p>`
   
               newCardsContainer2.appendChild(card2);
                     

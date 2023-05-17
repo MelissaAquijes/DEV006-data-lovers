@@ -169,3 +169,6 @@ resumen y un botón para leer más acerca de la película seleccionada.
 
 
  ![Sitio Principal](./src/Assets/pagina-2.png)
+
+
+ ![Sitio Principal](./src/Assets/pagina-3.png)
