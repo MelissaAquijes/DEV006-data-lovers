@@ -1,142 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ghibli Lovers</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli Lovers</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="./Assets/icon6.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300;400;700&family=Major+Mono+Display&display=swap" rel="stylesheet">
-
 </head>
 <body>
-  <!--------------------------- HEADER ----------------------------->
-  <header>
-    <!--------------------------- MENSAJE DE BIENVENIDA ----------------------------->
-    <section class="sectionBienvenida">
-      <p class="msjBienvenida">¡Welcome to the Ghibli Lovers Fan Page!</p> 
- 
-      <!---------------------------- APPS ----------------------------->
-      <section class="apps">
-        <a href="https://twitter.com/JP_GHIBLI" target="_blank"><img class="iconApp" src="Assets/twitter.png" alt="Logo twitter"></a>
-        <a href="https://www.youtube.com/@relaxandhealing6146" target="_blank"><img class="iconApp" src="Assets/youtube.png" alt="Logo YouTube"></a>
-        <a href="https://www.facebook.com/GhibliUSA/" target="_blank"><img class="iconApp" src="Assets/facebook.png" alt="Logo Facebook"></a>
-      </section>
-    </section>
-  
-    <!--------------------------- LOGO Y NOMBRE DE LA PÁG. ----------------------------->
-    <section class="sectionLogo">
-      <img class="logoGhibli" src="./Assets/logoGhibli.png" alt="Imágen de Susuwatari, Película el Castillo Ambulante y El Viaje de Chihiro">
-      <h1 class="titleghibliLovers">GHIBLI<br>LOVERS</h1>
-    </section>
-  </header>
+    <main class="mainFixed">
+        <div class="divContainerInicio">
+            <!----------------------------- PRIMER CASILLERO ----------------------------->
+            <section class="containerImagen1">
+                <img class="imagen1" src="./Assets/imagen1.jpg" alt="Image of the movie Princess Mononoke">
+            </section>
 
-<!--------------------------- NAV ----------------------------->
-<nav class="navContainer">
-  <!--------------------------- INPUT: SEARCH ----------------------------->
-    <label class="containerInput" for="">
-        <input type="search" placeholder="Search Movies">
-        <img class="iconLupa" src="./Assets/search.png" alt="Icono de una lupa color blanco">
-    </label>
-    
-    <!--------------------------- OPCIONES DE NAVEGACIÓN ----------------------------->
-    <a href="https://ghibli-park.jp/" target="_blank">Mitaka no Mori Ghibli Museum</a>
-    <a href="https://www.ghibli.jp/history/" target="_blank">Ghibli History</a>
-    <a href="https://www.ghibli-museum.jp/" target="_blank">Ghibli Park</a>
-    <a href="https://www.ghibli-museum-shop.jp/" target="_blank">Online Store</a>
-</nav>
+            <!----------------------------- SEGUNDO CASILLERO ----------------------------->
+            <section class="flexDescubrir">
+                <section class="containerLogo">
+                    <img class="logoGl" src="./Assets/logoGhibli.png" alt="Ghibli lovers logo">
+                    <h1 class="titleLogo">GHIBLI<br>LOVERS</h1>
+                </section>
+                
+                <section class="containerMsj">
+                    <p class="messageDescubrir">Find everything about STUDIO GHIBLI in one place!</p>
+                </section>
+                
 
-<!--------------------------- MAIN ----------------------------->
-<main>
-  <!--------------------------- SECCIÓN DE VIDEO ----------------------------->
-  <section class="container" id="sectionPage-One">
-    <section class="portadasContainer">
+                <div class="containerButton">
+                    <button class="buttonDiscover"><a href="./movies.html">DISCOVER</a></button>
+                </div>
+            </section>
 
-      <div class="portadaMascara"></div>
-      
-        <div class="portadaInfo">
-          <!-- <img class="imgVideo" src="./Assets/imagen1.jpg" alt=""> -->
-          <div class="titleLogoContainer"></div>
-          <div class="parrafoContainer"></div>
-          
-          <div class="buttonContainer"></div>
+            <!----------------------------- TERCER CASILLERO ----------------------------->
+            <section class="gridDescription">
+                <img class="imagen2" src="./Assets/imagen2.jpg" alt="Image of the movie Princess Mononoke">
+            
+                <p class="descriptionGhibli">Studio Ghibli is a Japanese animation studio, based in Tokyo. It was founded in 1985 by Hayao Miyazaki and Isao Takahata, and to this day, they have made more than 20 films.</p>
+            </section>
+
+            <!----------------------------- CUARTO CASILLERO ----------------------------->
+            <section>
+                <img class="imagen3" src="./Assets/imagen3.jpg" alt="Image from the movie Howl's Moving Castle" >
+            </section>
         </div>
-        
-        <div class="portadaVideo"></div>
-        
-    </section>
-  
-    <!--------------------------- TITULO: ANIMATED FILMS ----------------------------->
-    <section class="containerTitlePelicula">
-      <p class="titlePeliculas">Animated Films</p>
-    </section>
-  
-    <!--------------------------- SECCIÓN DE FILTROS ----------------------------->
-    <section class="containerFilters">
-      <p class="subtitleFiltros">Filters</p>
-  
-      <select name="filterAZ" class="selectOption" id="filterAlphabet">
-        <option disabled selected>Alphabet</option>
-      </select>
-  
-      <select name="director" class="selectOption" id="filterDirector">
-        <option disabled selected>Director</option>
-      </select>
-  
-      <select name="producer" class="selectOption" id="filterProducer">
-        <option disabled selected>Producer</option>
-      </select>
-        
-      <select name="year" class="selectOption" id="filterYear">
-        <option disabled selected>Year</option>
-      </select>
-    </section>
-  
-     <!--------------------------- SECCIÓN CONTADOR DE PELICULAS ----------------------------->
-    <section class="sectionContadorMovies">
-      <p class="contadorParrafo" id="contadorMovies"></p>
-    </section>
-  
-    <!--------------------------- SECCIÓN DE POSTERS ----------------------------->
-    <section class="postersContainer"></section>
-  </section>
-  
-  <!-- SE OCULTA LA PAGINA DE POSTERS Y SE MUESTRA LA PAGINA DE INFORMACION DE CADA PELICULA -->
-  <div class="container2 sectionPage-Two" id="sectionPage-Two" >
-    <div class="newImagenDescriptionContainer"></div>
-    <div class="newIconBackInicio">
-      <img class="iconBack" id="reloadPage" src="./Assets/back.png" alt="Icono de una flecha color amarillo">
-    </div>
-    <div class="newTitleContainer"></div>
-    <div class="newDescriptionContainer"></div>
-    <div class="newDetailsContainer">
-      <div class="newScoreContainer"></div>
-      <div class="newCreatorsContainer"></div>
-    </div>
-    
-    <div class="newTitle1Container containerTitlePelicula"></div>
-    <div class="newContadorContainer sectionContadorMovies"></div>
-    <div class="newCardsContainer"></div>
-    
-    <div class="newTitle2Container containerTitlePelicula"></div>
-    <div class="newCardsContainer2 newCardsContainer"></div>
-    <div class="newTitle3Container containerTitlePelicula"></div>
-    <div class="newCardsContainer3 newCardsContainer"></div>
-  
-  </div>
-
-</main>
-
-<!--------------------------- FOOTER ----------------------------->
-<footer class="footerContainer">
-  <p class="parrafoFooter">Copyright © 2023 Melissa Aquijes and Alejandra Martínez</p>
-</footer>
-
-<script src="./main.js" type="module"></script>
-
-
+    </main>
 </body>
 </html>
