@@ -165,10 +165,10 @@ resumen y un botón para leer más acerca de la película seleccionada.
 
 ## 4. Interfaz de Usuario
  
- ![Sitio Principal](./src/Assets/pagina-1.png)
+ ![Sitio Principal](./src/Assets/pagina1.png)
 
 
- ![Sitio Principal](./src/Assets/pagina-2.png)
+ ![Sitio Principal](./src/Assets/pagina2.png)
 
 
- ![Sitio Principal](./src/Assets/pagina-3.png)
+ ![Sitio Principal](./src/Assets/pagina3.png)
