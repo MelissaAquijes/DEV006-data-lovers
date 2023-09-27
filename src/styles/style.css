@@ -1,0 +1,681 @@
+:root {
+    --blue-color: #06121E;
+    --red-color: #E50914;
+    --white-color: #FFFFFF;
+    --lightBlue-color: #0B1A2A;
+    --lightRed-color: #FA183D;
+    --lightGray-color: #C5D0CF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Caveat Brush', cursive;
+}
+
+/* Página de inicio */
+.background {
+    width: 100%;
+    height: 100vh;
+    min-width: 320px;
+    background-image: url(../Assets/499249.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+}
+
+.start-container {
+    width: 100%;
+    height: 100vh;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.353);
+    position: relative;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.white-website-name {
+    font-size: 3rem;
+    font-family: 'Caveat Brush', cursive;
+    color: var(--white-color);
+}
+
+.message-start {
+    width: 100%;
+    max-width: 700px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    padding: 0px 10px ;
+}
+
+.button-start {
+    width: 150px;
+    height: 45px;
+    background: var(--blue-color);
+    border-radius: 10px;
+    border: 1px solid var(--white-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.button-start a {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+
+.button-start:hover {
+    background-color: var(--red-color);
+}
+
+/* Página de películas */
+header {
+    width: 100%;
+}
+
+.imagen-portada {
+    height: 100%;
+}
+
+.header-container-apps {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lightBlue-color);
+    padding: 0px 8px;
+}
+
+.p-welcome-msg {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+
+.img-app {
+    width: 23px;
+    cursor: pointer;
+}
+
+.header-container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: var(--blue-color);
+}
+
+.img-logo {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.website-name {
+    font-size: 2rem;
+    font-family: 'Caveat Brush', cursive;
+    color: var(--red-color);
+}
+
+/* Nav */
+.nav-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--lightBlue-color);
+}
+
+.search-container {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    background: #e509143c;
+    border: 1px solid var(--lightRed-color);
+    border-radius: 5px;
+}
+
+.search-container input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4rem;
+    color: var(--white-color);
+}
+
+.icon-lupa {
+    padding: 7px;
+}
+
+.nav-container a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Cabin', sans-serif;
+    color: var(--lightGray-color);
+    padding: 8px;
+}
+
+.nav-container a:hover {
+    color: var(--red-color);
+}
+
+/* Video */
+.container {
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-rows: 50vh auto;
+    background-color: var(--blue-color);
+}
+
+.cover-container {
+    position: sticky;
+    top:0;
+    grid-column: 2/3;
+}
+
+.cover-mask {
+    position: absolute;
+    background: linear-gradient(to top,#06121E 15%,transparent);
+    width: 70vw;
+    height: 1.1vw;
+    margin-top: calc(50vh - 1vw);
+    z-index: 2;
+}
+
+.cover-information {
+    position: absolute;
+    height: 50vh;
+    width: 48vh;
+    width: 70vw;
+    display: block;
+    z-index: 1;
+}
+
+.backgroundImg {
+    background-image: url(../Assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.title-container {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.imgTitle {
+    width: 200px;
+    padding: 0px 20px 0px;
+}
+
+.paragraph-container {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    min-width: 80px;
+    max-width: 420px;
+    height: auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.parrafo {
+    color: var(--white-color);
+    text-align: justify;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+}
+
+.button-container {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonReadMore {
+    background-image: url(../Assets/read-more.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.cover-video {
+    position: relative;
+    height: 100%;
+    background-color: var(--blue-color);
+    display: flex;
+    justify-content: end;
+    z-index: 0;
+    grid-column: 2/3;
+}
+
+.video {
+    filter: brightness(1.2);
+    min-width: 220px;
+}
+
+/* Animated Films */
+.container-title {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    background: var(--blue-color);
+    grid-column: 2/3;
+}
+
+.p-animated-films {
+    font-size: 2.5rem;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 700;
+    color: var(--lightRed-color);
+    letter-spacing: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Filtros */
+.filter-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    grid-column: 2/3;
+    margin-top: 55px;
+}
+
+.p-filter {
+    color: var(--red-color);
+    font-size: 1.4rem;
+    font-family: 'Cabin', sans-serif;
+}
+
+.filter-options {
+    width: 35%;
+    height: 28px;
+    min-width: 80px;
+    max-width: 150px;
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid var(--red-color);
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3rem;
+    color: var(--lightRed-color);
+    text-align: center;
+    cursor: pointer;
+}
+
+.filter-options:hover {
+    box-shadow: 0px 0px 4px 0 var(--white-color);
+}
+
+.filter-options:focus {
+    outline: none;
+}
+
+/* Contador de Películas */
+.container-movie-counter {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    grid-column: 2/3;
+    margin-top: 40px;
+}
+
+.p-counter {
+    color: var(--lightGray-color);
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 1.7px;
+}
+
+.letter-red {
+    color: var(--lightRed-color);
+    font-weight: bold;
+}
+
+/* Posters de las Películas */
+.posters-container {
+    grid-column: 2/3;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px 0px 25px;
+}
+
+.poster {
+    width: 55%;
+    min-width: 80px;
+    max-width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.poster:hover {
+    border: 3px solid var(--white-color);
+}
+
+/* Página de información de la película */
+.container2 {
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-rows: auto auto;
+    background-color: var(--blue-color);
+}
+
+.sectionPage-Two {
+    display: none;
+}
+
+.newImagenDescriptionContainer {
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+}
+
+.newImagenDescription {
+    width: 80%;
+    max-width: 650px;
+}
+
+.newIconBackInicio {
+    position: fixed;
+    left: 10px;
+    bottom: 60%;
+}
+
+.iconBack {
+    width: 35px;
+}
+
+.newTitleContainer {
+    grid-column: 2/3;
+    margin-top: 21px;
+}
+
+.newTitle {
+    color: var(--lightRed-color);
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.newDescriptionContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+    margin-top: 21px;
+    border-top: 1px solid #9F9F9F;
+}
+
+.newDescription {
+    width: 70%;
+    color: var(--white-color);
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 21px;
+}
+
+.newDetailsContainer {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    border-bottom: 1px solid #9F9F9F;
+    font-family: 'Cabin', sans-serif;
+    color: var(--white-color);
+}
+
+.newScoreContainer {
+    width: 35%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.titleScore {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    color: var(--lightRed-color);
+}
+
+.iconStar {
+    width: 20px;
+}
+
+.numberScore {
+    font-size: 1.3rem;
+}
+
+.newCreatorsContainer {
+    width: 35%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.newCreatorsContainer p {
+    margin-top: 15px;
+}
+
+.newTitle1Container {
+    margin-top: 50px;
+    grid-column: 2/3;
+}
+
+.new-counter-container {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    grid-column: 2/3;
+    margin-top: 40px;
+}
+.titlePeliculas {
+    font-size: 2.5rem;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 700;
+    color: var(--lightRed-color);
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/*----- CARDS -----*/
+.newCardsContainer {
+    font-family: 'Cabin', sans-serif;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.cardArticle {
+    width: 80%;
+    min-width: 100px;
+    max-width: 180px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid var(--red-color);
+    border-radius: 15px;
+}
+
+.namePersonaje {
+    color: var(--lightRed-color);
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.cardImage {
+    width: 90px;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.infoPersonajes {
+    font-size: 1.4rem;
+    color: var(--white-color);
+}
+
+.details-p {
+    color: var(--lightRed-color);
+}
+
+/*----- LOCATIONS -----*/
+.newTitle2Container {
+    margin-top: 50px;
+    grid-column: 2/3;
+}
+
+.noInformation {
+    color: var(--white-color);
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+}
+
+/*----- VEHICLES -----*/
+.newTitle3Container {
+    margin-top: 50px;
+    grid-column: 2/3;
+}
+
+.cardArticleVehicles {
+    width: 90%;
+    min-width: 100px;
+    max-width: 260px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid var(--red-color);
+    margin-bottom: 50px;
+}
+
+.cardImageVehicle {
+    width: 100px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.descripcion {
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+/* ------------------ FOOTER ------------------ */
+.footer-container {
+    width: 100%;
+    height: 40px;
+    background: var(--blue-color);
+    border-top: 2px dashed #233A50;
+    display: flex;
+}
+
+.footer-p {
+    color: var(--lightGray-color);
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+@media only screen and (min-width: 769px) {
+    .message-start {
+        font-size: 4.5rem;
+        letter-spacing: 3px;
+    }
+    .footer-p {
+        font-size: 1.3rem;
+    }
+    .newIconBackInicio {
+        left: 45px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav-container a,
+    .parrafo,
+    .p-counter {
+        font-size: 1.4rem;
+    }
+    .newDescription {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .search-container {
+        display: none;
+    }
+    .button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .title-container,
+    .paragraph-container {
+        display: none;
+    }
+}
+
+
+

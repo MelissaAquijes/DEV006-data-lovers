@@ -1,141 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ghibli Lovers</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <link rel="shortcut icon" href="./Assets/icon6.png" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300;400;700&family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Caveat+Brush&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-  <!--------------------------- HEADER ----------------------------->
   <header>
-    <!--------------------------- MENSAJE DE BIENVENIDA ----------------------------->
-    <section class="sectionBienvenida">
-      <p class="msjBienvenida">¡Welcome to the Ghibli Lovers Fan Page!</p> 
- 
-      <!---------------------------- APPS ----------------------------->
-      <section class="apps">
-        <a href="https://twitter.com/JP_GHIBLI" target="_blank"><img class="iconApp" src="Assets/twitter.png" alt="Logo twitter"></a>
-        <a href="https://www.youtube.com/@relaxandhealing6146" target="_blank"><img class="iconApp" src="Assets/youtube.png" alt="Logo YouTube"></a>
-        <a href="https://www.facebook.com/GhibliUSA/" target="_blank"><img class="iconApp" src="Assets/facebook.png" alt="Logo Facebook"></a>
+    <section class="header-container-apps">
+      <p class="p-welcome-msg">¡Welcome to the Ghibli Lovers Fan Page!</p>
+
+      <section class="header-container-apps">
+        <a href="https://twitter.com/JP_GHIBLI" target="_blank">
+          <img class="img-app" src="Assets/twitter.svg" alt="Logo twitter"></a>
+
+        <a href="https://www.youtube.com/@relaxandhealing6146" target="_blank">
+          <img class="img-app" src="Assets/youtube.svg" alt="Logo YouTube"></a>
+
+        <a href="https://www.facebook.com/GhibliUSA/" target="_blank">
+          <img class="img-app" src="Assets/facebook.svg" alt="Logo Facebook"></a>
       </section>
     </section>
-  
-    <!--------------------------- LOGO Y NOMBRE DE LA PÁG. ----------------------------->
-    <section class="sectionLogo">
-      <img class="logoGhibli" src="./Assets/logoGhibli.png" alt="Imágen de Susuwatari, Película el Castillo Ambulante y El Viaje de Chihiro">
-      <h1 class="titleghibliLovers">GHIBLI<br>LOVERS</h1>
+
+    <section class="header-container-logo">
+      <a href="./index.html"><img class="img-logo" src="./Assets/logoGhibliWhite.png" alt="Totoro image"></a>
+      <h1 class="website-name">GHIBLI<br>LOVERS</h1>
     </section>
   </header>
 
-<!--------------------------- NAV ----------------------------->
-<nav class="navContainer">
-  <!--------------------------- INPUT: SEARCH ----------------------------->
-    <label class="containerInput" for="">
-        <input type="search" placeholder="Search Movies">
-        <img class="iconLupa" src="./Assets/search.png" alt="Icono de una lupa color blanco">
+  <nav class="nav-container">
+    <label class="search-container" for="">
+      <input type="search" placeholder="Search Movies">
+      <img class="icon-lupa" src="./Assets/search.png" alt="Icon of a white magnifying glass">
     </label>
-    
-    <!--------------------------- OPCIONES DE NAVEGACIÓN ----------------------------->
+
     <a href="https://ghibli-park.jp/" target="_blank">Mitaka no Mori Ghibli Museum</a>
     <a href="https://www.ghibli.jp/history/" target="_blank">Ghibli History</a>
     <a href="https://www.ghibli-museum.jp/" target="_blank">Ghibli Park</a>
     <a href="https://www.ghibli-museum-shop.jp/" target="_blank">Online Store</a>
-</nav>
+  </nav>
 
-<!--------------------------- MAIN ----------------------------->
-<main>
-  <!--------------------------- SECCIÓN DE VIDEO ----------------------------->
-  <section class="container" id="sectionPage-One">
-    <section class="portadasContainer">
+  <main>
+    <section class="container" id="sectionPage-One">
 
-      <div class="portadaMascara"></div>
-      
-        <div class="portadaInfo">
-          <div class="titleLogoContainer"></div>
-          <div class="parrafoContainer"></div>
-          
-          <div class="buttonContainer"></div>
+      <section class="cover-container">
+
+        <div class="cover-mask"></div>
+
+        <div class="cover-information backgroundImg">
+          <div class="title-container"></div>
+          <div class="paragraph-container"></div>
+          <div class="button-container"></div>
         </div>
-        
-        <div class="portadaVideo"></div>
-        
+
+        <div class="cover-video"></div>
+
+      </section>
+
+      <section class="container-title">
+        <p class="p-animated-films">ANIMATED FILMS</p>
+      </section>
+
+      <!-- Filtros -->
+      <section class="filter-container">
+        <p class="p-filter">Filters</p>
+
+        <select name="filterAZ" class="filter-options" id="filterAlphabet">
+          <option disabled selected>Alphabet</option>
+        </select>
+
+        <select name="director" class="filter-options" id="filterDirector">
+          <option disabled selected>Director</option>
+        </select>
+
+        <select name="producer" class="filter-options" id="filterProducer">
+          <option disabled selected>Producer</option>
+        </select>
+
+        <select name="year" class="filter-options" id="filterYear">
+          <option disabled selected>Year</option>
+        </select>
+      </section>
+
+      <section class="container-movie-counter">
+        <p class="p-counter" id="contadorMovies"></p>
+      </section>
+
+      <!-- Posters -->
+      <section class="posters-container"></section>
     </section>
-  
-    <!--------------------------- TITULO: ANIMATED FILMS ----------------------------->
-    <section class="containerTitlePelicula">
-      <p class="titlePeliculas">Animated Films</p>
-    </section>
-  
-    <!--------------------------- SECCIÓN DE FILTROS ----------------------------->
-    <section class="containerFilters">
-      <p class="subtitleFiltros">Filters</p>
-  
-      <select name="filterAZ" class="selectOption" id="filterAlphabet">
-        <option disabled selected>Alphabet</option>
-      </select>
-  
-      <select name="director" class="selectOption" id="filterDirector">
-        <option disabled selected>Director</option>
-      </select>
-  
-      <select name="producer" class="selectOption" id="filterProducer">
-        <option disabled selected>Producer</option>
-      </select>
-        
-      <select name="year" class="selectOption" id="filterYear">
-        <option disabled selected>Year</option>
-      </select>
-    </section>
-  
-     <!--------------------------- SECCIÓN CONTADOR DE PELICULAS ----------------------------->
-    <section class="sectionContadorMovies">
-      <p class="contadorParrafo" id="contadorMovies"></p>
-    </section>
-  
-    <!--------------------------- SECCIÓN DE POSTERS ----------------------------->
-    <section class="postersContainer"></section>
-  </section>
-  
-  <!-- SE OCULTA LA PAGINA DE POSTERS Y SE MUESTRA LA PAGINA DE INFORMACION DE CADA PELICULA -->
-  <div class="container2 sectionPage-Two" id="sectionPage-Two" >
-    <div class="newImagenDescriptionContainer"></div>
-    <div class="newIconBackInicio">
-      <img class="iconBack" id="reloadPage" src="./Assets/back.png" alt="Icono de una flecha color amarillo">
+
+    <!-- Página de información de la película -->
+    <div class="container2 sectionPage-Two" id="sectionPage-Two">
+      <div class="newImagenDescriptionContainer"></div>
+      <div class="newIconBackInicio">
+        <img class="iconBack" id="reloadPage" src="./Assets/back.png" alt="Icono de una flecha color amarillo">
+      </div>
+      <div class="newTitleContainer"></div>
+      <div class="newDescriptionContainer"></div>
+      <div class="newDetailsContainer">
+        <div class="newScoreContainer"></div>
+        <div class="newCreatorsContainer"></div>
+      </div>
+
+      <div class="newTitle1Container containerTitlePelicula"></div>
+      <div class="new-counter-container sectionContadorMovies"></div>
+      <div class="newCardsContainer"></div>
+
+      <div class="newTitle2Container containerTitlePelicula"></div>
+      <div class="newCardsContainer2 newCardsContainer"></div>
+      <div class="newTitle3Container containerTitlePelicula"></div>
+      <div class="newCardsContainer3 newCardsContainer"></div>
+
     </div>
-    <div class="newTitleContainer"></div>
-    <div class="newDescriptionContainer"></div>
-    <div class="newDetailsContainer">
-      <div class="newScoreContainer"></div>
-      <div class="newCreatorsContainer"></div>
-    </div>
-    
-    <div class="newTitle1Container containerTitlePelicula"></div>
-    <div class="newContadorContainer sectionContadorMovies"></div>
-    <div class="newCardsContainer"></div>
-    
-    <div class="newTitle2Container containerTitlePelicula"></div>
-    <div class="newCardsContainer2 newCardsContainer"></div>
-    <div class="newTitle3Container containerTitlePelicula"></div>
-    <div class="newCardsContainer3 newCardsContainer"></div>
-  
-  </div>
 
-</main>
+  </main>
 
-<!--------------------------- FOOTER ----------------------------->
-<footer class="footerContainer">
-  <p class="parrafoFooter">Copyright © 2023 Melissa Aquijes and Alejandra Martínez</p>
-</footer>
+  <footer class="footer-container">
+    <p class="footer-p">Copyright © 2023 Melissa Aquijes and Alejandra Martínez</p>
+  </footer>
 
-<script src="./main.js" type="module"></script>
-
+  <script src="./main.js" type="module"></script>
 
 </body>
+
 </html>

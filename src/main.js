@@ -1,10 +1,11 @@
 import { filterAZ,filterZA,arrayDirectores,filterDataDirector,arrayProductores,filterDataProducer,filterDataYearAsc,filterDataYearDesc} from './data.js';
 
-const postersContainer = document.querySelector('.postersContainer');
-const portadaVideo = document.querySelector('.portadaVideo');
-const titleLogoContainer = document.querySelector('.titleLogoContainer');
-const parrafoContainer = document.querySelector('.parrafoContainer');
-const buttonContainer = document.querySelector('.buttonContainer');
+const postersContainer = document.querySelector('.posters-container');
+const coverInformation = document.querySelector('.cover-information');
+const coverVideo = document.querySelector('.cover-video');
+const titleContainer = document.querySelector('.title-container');
+const parrafoContainer = document.querySelector('.paragraph-container');
+const buttonContainer = document.querySelector('.button-container');
 
 const newImagenDescriptionContainer = document.querySelector('.newImagenDescriptionContainer');
 const newTitleContainer = document.querySelector('.newTitleContainer');
@@ -12,7 +13,7 @@ const newDescriptionContainer = document.querySelector('.newDescriptionContainer
 const newScoreContainer = document.querySelector('.newScoreContainer');
 const newCreatorsContainer = document.querySelector('.newCreatorsContainer');
 const newTitle1Container = document.querySelector('.newTitle1Container');
-const newContadorContainer = document.querySelector('.newContadorContainer');
+const newCounterContainer = document.querySelector('.new-counter-container');
 const newCardsContainer = document.querySelector('.newCardsContainer');
 const newTitle2Container = document.querySelector('.newTitle2Container');
 const newCardsContainer2 = document.querySelector('.newCardsContainer2');
@@ -37,90 +38,87 @@ fetch('./data/ghibli/ghibli.json')
     const postersGhibli = (ghibliData) => {
 
       postersContainer.innerHTML = "";
-      document.getElementById('contadorMovies').innerHTML = `<span class="letterPink">You are watching:</span> ${ghibliData.length} movies`;
+      document.getElementById('contadorMovies').innerHTML = `<span class="letter-red">You are watching:</span> ${ghibliData.length} movies`;
 
       ghibliData.forEach((e) => {
         const poster= document.createElement('img');
         poster.setAttribute('src', e.poster)
         poster.setAttribute('class', 'poster')
-  
+
         postersContainer.appendChild(poster)
-  
+
         poster.addEventListener('click', () => {
-          const video = `<video class="video" src= ${e.info[0].video} loop autoplay mute>`
+          coverInformation.classList.remove('backgroundImg');
+          const video = `<video class="video" src= ${e.info[0].video} loop autoplay>`
           const parrafo = `<p class='parrafo'>${e.info[0].texto}</p>`
           const titleLogo = `<img class= 'imgTitle' src= ${e.info[0].logoTitleUrl} />`
           const button = `<button class="buttonReadMore" id="buttonReadMore"></button>`
-  
-          portadaVideo.innerHTML = video;
+
+          coverVideo.innerHTML = video;
           parrafoContainer.innerHTML = parrafo;
-          titleLogoContainer.innerHTML = titleLogo;
+          titleContainer.innerHTML = titleLogo;
           buttonContainer.innerHTML = button;
-          
+
           const boton = document.getElementById('buttonReadMore');
           boton.addEventListener('click', nextPage);
 
           const reload = document.getElementById('reloadPage');
-          reload.addEventListener('click', reloadPage);
-
+          reload.addEventListener('click', () => {
+            location.reload()
+          });
 
           //OCULTAR PAGINA DE POSTERS Y MOSTRAR PÁGINA DE INFORMACION DE CADA PELICULA
           function nextPage() {
             document.getElementById('sectionPage-One').style.display = 'none';
             document.getElementById('sectionPage-Two').style.display = 'grid';
-            portadaVideo.innerHTML=""
-          }
-
-          //Actulizar nuestra página
-          function  reloadPage() {
-            location.reload();
+            coverVideo.innerHTML=""
           }
 
           const newPoster = `<img class= 'newImagenDescription' src= ${e.info[0].imageDescription} />`
           newImagenDescriptionContainer.innerHTML = newPoster;
 
-          const newTitle = `<p class="newTitle">${e.title}<span class="newTitleSpan"> (${e.release_date})</span></p>`
+          const newTitle = `<p class="newTitle">${e.title}<span> (${e.release_date})</span></p>`
           newTitleContainer.innerHTML = newTitle
 
           const newDescription = `<p class="newDescription">${e.description}</p>`
           newDescriptionContainer.innerHTML = newDescription
 
-          const newScore = 
+          const newScore =
             `<p class="titleScore">Score</p>
             <img class='iconStar' src= ${e.info[0].iconStar}>
             <p class="numberScore">${e.rt_score}/100</p>`
           newScoreContainer.innerHTML = newScore
 
-          const newCreators = 
-              `<p><span class="letterPink">Director: </span>${e.director}</p>
-              <p><span class="letterPink">Producer: </span>${e.producer}</p>`
+          const newCreators =
+              `<p><span class="letter-red">Director: </span>${e.director}</p>
+              <p><span class="letter-red">Producer: </span>${e.producer}</p>`
           newCreatorsContainer.innerHTML = newCreators
 
-          const newTitleCharacters = `<h2 class="titlePeliculas">Characters</h2>`
+          const newTitleCharacters = `<h2 class="titlePeliculas">CHARACTERS</h2>`
           newTitle1Container.innerHTML = newTitleCharacters
 
-          const newContadorCharacters = `<p class="contadorParrafo"><span class="letterPink">You are watching:</span> ${e.people.length} characters</p>`
-          newContadorContainer.innerHTML = newContadorCharacters
+          const newContadorCharacters = `<p class="p-counter"><span class="letter-red">You are watching:</span> ${e.people.length} characters</p>`
+          newCounterContainer.innerHTML = newContadorCharacters
 
           //Creación de cards de personajes
           e.people.forEach(element => {
             const card = document.createElement('article');
             card.setAttribute('class', 'cardArticle')
-            card.innerHTML += 
+            card.innerHTML +=
               `<h2 class="namePersonaje">${element.name}</h2>
               <img class="cardImage" src="${element.img}" alt="Personaje de la película">
-              <p class="infoPersonajes"><span class="letterPink">Gender:</span> ${element.gender}</p>
-              <p class="infoPersonajes"><span class="letterPink">Age:</span> ${element.age}</p>
-              <p class="infoPersonajes"><span class="letterPink">Eye Color:</span> ${element.eye_color}</p>
-              <p class="infoPersonajes"><span class="letterPink">Specie:</span> ${element.specie}</p>`
+              <p class="infoPersonajes"><span class="details-p">Gender:</span> ${element.gender}</p>
+              <p class="infoPersonajes"><span class="details-p">Age:</span> ${element.age}</p>
+              <p class="infoPersonajes"><span class="details-p">Eye Color:</span> ${element.eye_color}</p>
+              <p class="infoPersonajes"><span class="details-p">Specie:</span> ${element.specie}</p>`
 
             newCardsContainer.appendChild(card)
           });
 
           //Creación de cards de locaciones
-          const newTitle2Locations = `<h2 class="titlePeliculas">Locations</h2>`
+          const newTitle2Locations = `<h2 class="titlePeliculas">LOCATIONS</h2>`
           newTitle2Container.innerHTML = newTitle2Locations
-  
+
           if (e.locations.length === 0) {
             newCardsContainer2.innerHTML = `<p class="noInformation">There is no information :(</p>`
           } else {
@@ -129,21 +127,21 @@ fetch('./data/ghibli/ghibli.json')
               card2.setAttribute('class', 'cardArticle');
 
 
-              card2.innerHTML += 
+              card2.innerHTML +=
                 `<h2 class="namePersonaje">${place.name}</h2>
                 <img class="cardImage" src="${place.img}" alt="Personaje de la película">
-                <p class="infoPersonajes"><span class="letterPink">Climate: </span>${place.climate}</p>
-                <p class="infoPersonajes"><span class="letterPink">Terrain: </span>${place.terrain}</p>
-                <p class="infoPersonajes"><span class="letterPink">Surface Water: </span>${place.surface_water}</p>
-                <p class="infoPersonajes"><span class="letterPink">Residents: </span>${place.residents.length===1 ? place.residents : place.residents.map(e=> {return e.name})}</p>`
-  
+                <p class="infoPersonajes"><span class="details-p">Climate: </span>${place.climate}</p>
+                <p class="infoPersonajes"><span class="details-p">Terrain: </span>${place.terrain}</p>
+                <p class="infoPersonajes"><span class="details-p">Surface Water: </span>${place.surface_water}</p>
+                <p class="infoPersonajes"><span class="details-p">Residents: </span>${place.residents.length===1 ? place.residents : place.residents.map(e=> {return e.name})}</p>`
+
               newCardsContainer2.appendChild(card2);
-                    
+
             });
           }
 
           //Creación de cards de vehiculos
-          const newTitle3Vehicles = `<h2 class="titlePeliculas">Vehicles</h2>`
+          const newTitle3Vehicles = `<h2 class="titlePeliculas">VEHICLES</h2>`
           newTitle3Container.innerHTML = newTitle3Vehicles
 
           if (e.vehicles.length === 0) {
@@ -152,21 +150,21 @@ fetch('./data/ghibli/ghibli.json')
             e.vehicles.forEach( mobility => {
               const card3 = document.createElement('article');
               card3.setAttribute('class', 'cardArticleVehicles')
-              card3.innerHTML += 
+              card3.innerHTML +=
                 `<h2 class="namePersonaje">${mobility.name}</h2>
                 <img class="cardImageVehicle" src="${mobility.img}" alt="Personaje de la película">
                 <p class="infoPersonajes descripcion">${mobility.description}</p>
-                <p class="infoPersonajes"><span class="letterPink">Vehicle Class: </span>${mobility.vehicle_class}</p>
-                <p class="infoPersonajes"><span class="letterPink">Length: </span>${mobility.length}</p>
-                <p class="infoPersonajes"><span class="letterPink">Pilot: </span>${mobility.pilot.name}</p>`
+                <p class="infoPersonajes"><span class="details-p">Vehicle Class: </span>${mobility.vehicle_class}</p>
+                <p class="infoPersonajes"><span class="details-p">Length: </span>${mobility.length}</p>
+                <p class="infoPersonajes"><span class="details-p">Pilot: </span>${mobility.pilot.name}</p>`
 
               newCardsContainer3.appendChild(card3);
             });
-          } 
+          }
 
         });
       })
-    }; 
+    };
     postersGhibli(dataStudioGhibli);
 
     // Filtrar de la A-Z y de la Z-A
